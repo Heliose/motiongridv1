@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>motiongridv1</title>
+<link rel="stylesheet" href="css/pixel-grid.css">
+<link rel="stylesheet" href="css/colors.css">
+<style>
+  body {
+    background: #0a0a0a;
+    color: #ddd;
+    font-family: -apple-system, system-ui, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+  p.sub {
+    text-align: center;
+    color: #888;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .tile {
+    background: #141414;
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 24px 12px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  :root {
+    --tile-scale: 6;
+  }
+  .tile-scale {
+    width: calc(11px * var(--tile-scale));
+    height: calc(11px * var(--tile-scale));
+    display: grid;
+    place-items: center;
+    margin: 18px 0;
+  }
+  .tile-scale .pixel-grid {
+    transform: scale(var(--tile-scale));
+    transform-origin: center;
+  }
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #222;
+    padding-bottom: 8px;
+    margin-bottom: 28px;
+  }
+  .toolbar h2 {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .floating-controls {
+    position: fixed;
+    top: 16px;
+    right: 20px;
+    z-index: 100;
+    background: rgba(20, 20, 20, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .scale-tabs,
+  .aspect-tabs {
+    display: flex;
+    gap: 2px;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .aspect-tabs button {
+    background: transparent;
+    color: #888;
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 150ms, color 150ms;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .aspect-tabs button.icon-only { padding: 5px 7px; }
+  .aspect-tabs button svg,
+  .theme-tabs button svg {
+    display: block;
+  }
+  .aspect-tabs button:hover { color: #ddd; }
+  .aspect-tabs button.active {
+    background: #2a2a2a;
+    color: #fff;
+  }
+  body.aspect-16x9 .tile-scale {
+    width: calc(11px * var(--tile-scale) * 16 / 9);
+    height: calc(11px * var(--tile-scale));
+  }
+  body.aspect-16x9 .tile-scale .pixel-grid {
+    width: calc(11px * 16 / 9);
+    height: 11px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  body.aspect-16x9 .grid-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  body.aspect-9x16 .tile-scale {
+    width: calc(11px * var(--tile-scale));
+    height: calc(11px * var(--tile-scale) * 16 / 9);
+  }
+  body.aspect-9x16 .tile-scale .pixel-grid {
+    width: 11px;
+    height: calc(11px * 16 / 9);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  body.aspect-21x9 .tile-scale {
+    width: calc(11px * var(--tile-scale) * 21 / 9);
+    height: calc(11px * var(--tile-scale));
+  }
+  body.aspect-21x9 .tile-scale .pixel-grid {
+    width: calc(11px * 21 / 9);
+    height: 11px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  body.aspect-21x9 .grid-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  body.shape-circle .tile-scale .pixel-grid {
+    clip-path: circle(50% at 50% 50%);
+  }
+  body.shape-circle .tile-scale .pixel-grid__cell {
+    border-radius: 50%;
+  }
+  body.shape-triangle .tile-scale .pixel-grid {
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  }
+  body.shape-triangle .tile-scale .pixel-grid__cell {
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    border-radius: 0;
+  }
+  body.light {
+    background: #f5f5f5;
+    color: #222;
+  }
+  body.light h1 { color: #111; }
+  body.light p.sub { color: #666; }
+  body.light section h2 {
+    color: #555;
+    border-bottom-color: #ddd;
+  }
+  body.light .toolbar { border-bottom-color: #ddd; }
+  body.light .tile {
+    background: #fff;
+    border-color: #e5e5e5;
+  }
+  body.light .label { color: #666; }
+  body.light .subsection-header { border-bottom-color: #ddd; }
+  body.light .subsection-header h3 { color: #666; }
+  body.light .subsection-header .subsection-sub { color: #999; }
+  body.light .principle-label { color: #333; }
+  body.light .principle-desc { color: #888; }
+  body.light .floating-controls {
+    background: rgba(255, 255, 255, 0.92);
+    border-color: #ddd;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+  body.light .scale-tabs button,
+  body.light .aspect-tabs button,
+  body.light .theme-tabs button { color: #888; }
+  body.light .scale-tabs button:hover,
+  body.light .aspect-tabs button:hover,
+  body.light .theme-tabs button:hover { color: #111; }
+  body.light .scale-tabs button.active,
+  body.light .aspect-tabs button.active,
+  body.light .theme-tabs button.active {
+    background: #e5e5e5;
+    color: #111;
+  }
+  body.light .color-picker .divider { background: #ccc; }
+  body.light .custom-color { border-color: #bbb; }
+  body.light .custom-color.active { border-color: #222; }
+  body.light .swatch.active { border-color: #222; }
+  body.flat .pixel-grid__cell.is-on {
+    box-shadow: none;
+  }
+  .theme-tabs {
+    display: flex;
+    gap: 2px;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .theme-tabs button {
+    background: transparent;
+    color: #888;
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 150ms, color 150ms;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .theme-tabs button:hover { color: #ddd; }
+  .theme-tabs button.active {
+    background: #2a2a2a;
+    color: #fff;
+  }
+  .color-picker {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 2px 4px 0;
+  }
+  .swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 100ms ease-out, border-color 150ms;
+    flex-shrink: 0;
+  }
+  .swatch:hover {
+    transform: scale(1.2);
+  }
+  .swatch.active {
+    border-color: #fff;
+  }
+  .color-picker .divider {
+    width: 1px;
+    height: 14px;
+    background: #333;
+    margin: 0 2px;
+  }
+  .custom-color {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px dashed #777;
+    cursor: pointer;
+    padding: 0;
+    background: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    flex-shrink: 0;
+  }
+  .custom-color::-webkit-color-swatch-wrapper { padding: 0; border-radius: 50%; }
+  .custom-color::-webkit-color-swatch { border: none; border-radius: 50%; }
+  .custom-color::-moz-color-swatch { border: none; border-radius: 50%; }
+  .custom-color.active {
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .scale-tabs button {
+    background: transparent;
+    color: #888;
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 150ms, color 150ms;
+  }
+  .scale-tabs button:hover {
+    color: #ddd;
+  }
+  .scale-tabs button.active {
+    background: #2a2a2a;
+    color: #fff;
+  }
+  .subsection {
+    margin-top: 40px;
+  }
+  .subsection-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
+  }
+  .subsection-header h3 {
+    font-size: 12px;
+    color: #aaa;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0;
+  }
+  .subsection-header .subsection-sub {
+    font-size: 11px;
+    color: #666;
+    font-style: italic;
+  }
+  .principle-label {
+    color: #ccc;
+    font-size: 11px;
+  }
+  .principle-desc {
+    color: #666;
+    font-size: 10px;
+    font-family: -apple-system, system-ui, sans-serif;
+    letter-spacing: 0;
+    font-style: italic;
+    text-align: center;
+    margin-top: -10px;
+  }
+  .pixel-grid { display: grid; }
+  .label {
+    font-size: 11px;
+    color: #aaa;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    letter-spacing: 0.03em;
+  }
+  section {
+    max-width: 1100px;
+    margin: 48px auto 0;
+  }
+  section h2 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-bottom: 1px solid #222;
+    padding-bottom: 8px;
+  }
+</style>
+</head>
+<body>
+
+<h1>motiongridv1</h1>
+<p class="sub">animated grid - sol | heliose</p>
+
+<section>
+  <div class="toolbar">
+    <h2>Motion Presets</h2>
+    <div class="floating-controls">
+      <div class="scale-tabs" id="scale-tabs">
+        <button data-scale="1">Original</button>
+        <button data-scale="2">2x</button>
+        <button data-scale="4">4x</button>
+        <button data-scale="6" class="active">6x</button>
+        <button data-scale="8">8x</button>
+        <button data-scale="10">10x</button>
+      </div>
+      <div class="aspect-tabs" id="aspect-tabs">
+        <button data-aspect="1x1" class="active">1:1</button>
+        <button data-aspect="16x9">16:9</button>
+        <button data-aspect="9x16">9:16</button>
+        <button data-aspect="21x9">21:9</button>
+        <button data-aspect="circle" class="icon-only" title="Circle"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="5.5"/></svg></button>
+        <button data-aspect="triangle" class="icon-only" title="Triangle"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><polygon points="7,1.75 12.5,11.75 1.5,11.75"/></svg></button>
+      </div>
+      <div class="theme-tabs" id="theme-tabs">
+        <button data-theme="dark" class="active"><svg width="12" height="12" viewBox="0 0 14 14" fill="#9ab4ff" stroke="none"><path d="M11 9A5.5 5.5 0 0 1 4.5 2.5a5.5 5.5 0 1 0 6.5 6.5z"/></svg>Dark</button>
+        <button data-theme="flat-dark"><svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M11 9A5.5 5.5 0 0 1 4.5 2.5a5.5 5.5 0 1 0 6.5 6.5z"/></svg>Flat Dark</button>
+        <button data-theme="light"><svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="7" cy="7" r="2.5"/><path d="M7 1v1.5M7 11.5V13M1 7h1.5M11.5 7H13M2.5 2.5l1.1 1.1M10.4 10.4l1.1 1.1M2.5 11.5l1.1-1.1M10.4 3.6l1.1-1.1"/></svg>Light</button>
+        <button data-theme="flat-light"><svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4"/></svg>Flat Light</button>
+      </div>
+      <div class="color-picker" id="color-picker">
+        <button class="swatch active" data-color="" style="background:#00d4ff" title="Cyan (default)"></button>
+        <button class="swatch" data-color="magenta" style="background:#ff4cc8" title="Magenta"></button>
+        <button class="swatch" data-color="yellow" style="background:#ffe033" title="Yellow"></button>
+        <button class="swatch" data-color="green" style="background:#5cd65c" title="Green"></button>
+        <button class="swatch" data-color="orange" style="background:#ff9933" title="Orange"></button>
+        <button class="swatch" data-color="blue" style="background:#4488ff" title="Blue"></button>
+        <button class="swatch" data-color="red" style="background:#ff4d4d" title="Red"></button>
+        <button class="swatch" data-color="purple" style="background:#b366ff" title="Purple"></button>
+        <button class="swatch" data-color="teal" style="background:#33ccbb" title="Teal"></button>
+        <button class="swatch" data-color="pink" style="background:#ff99cc" title="Pink"></button>
+        <button class="swatch" data-color="lime" style="background:#a6e639" title="Lime"></button>
+        <button class="swatch" data-color="white" style="background:#f5f5f5" title="White"></button>
+        <span class="divider"></span>
+        <input type="color" class="custom-color" id="custom-color" value="#00d4ff" title="Custom color">
+      </div>
+    </div>
+  </div>
+  <div class="grid-gallery" id="motion"></div>
+
+  <div class="subsection">
+    <div class="subsection-header">
+      <h3>Disney's 12 Principles of Animation</h3>
+      <span class="subsection-sub">motion fundamentals from Thomas &amp; Johnston</span>
+    </div>
+    <div class="grid-gallery" id="principles"></div>
+  </div>
+</section>
+
+<section>
+  <h2>Multi-Color Presets</h2>
+  <div class="grid-gallery" id="color"></div>
+</section>
+
+<section>
+  <h2>With Bloom</h2>
+  <div class="grid-gallery" id="bloom"></div>
+</section>
+
+<script src="src/pixel-grid.js"></script>
+<script>
+  const motion = ['wave-lr','wave-rl','wave-tb','wave-bt','spiral-cw','spiral-ccw','corners-first','center-out','diagonal-tl','diagonal-tr','diagonal-bl','diagonal-br','snake','cross','x-shape','checkerboard','rain','pinwheel','orbit','converge','zigzag','pulse','comet','bounce','stripes-h','stripes-v','frame','peek-center','comet-rev','doors','l-fill','plus-first','r-fill','j-fill','u-shape','t-shape','h-shape','snake-rev','arrow-up','rain-rev','diag-cross','chevron-r'];
+  const color = ['tide','toxic','deep-sea','mint','berry','candy'];
+  const bloom = ['prism','ember','frost','neon-cross','rainbow-spin','galaxy','fire','volcano','aurora','sunset','matrix','cyberpunk'];
+
+  function makeTile(parentId, name, opts = {}) {
+    const parent = document.getElementById(parentId);
+    const tile = document.createElement('div');
+    tile.className = 'tile';
+
+    const scale = document.createElement('div');
+    scale.className = 'tile-scale';
+
+    const grid = document.createElement('div');
+    grid.className = 'pixel-grid';
+    scale.appendChild(grid);
+
+    const label = document.createElement('div');
+    label.className = 'label';
+    label.textContent = name;
+
+    tile.appendChild(scale);
+    tile.appendChild(label);
+    parent.appendChild(tile);
+
+    PixelGrid.create(grid, Object.assign({ animation: name }, opts));
+  }
+
+  motion.forEach(n => makeTile('motion', n));
+  color.forEach(n => makeTile('color', n));
+  bloom.forEach(n => makeTile('bloom', n, { bloom: 3 }));
+
+  const principles = [
+    { name: 'squash-stretch',   label: '1. Squash & Stretch',    desc: 'Flexibility & weight' },
+    { name: 'anticipation',     label: '2. Anticipation',        desc: 'Prep for action' },
+    { name: 'staging',          label: '3. Staging',             desc: 'Clear focal point' },
+    { name: 'straight-ahead',   label: '4. Straight Ahead',      desc: 'Frame-by-frame flow' },
+    { name: 'pose-to-pose',     label: '5. Pose to Pose',        desc: 'Key poses + breakdowns' },
+    { name: 'follow-through',   label: '6. Follow Through',      desc: 'Overlapping motion' },
+    { name: 'slow-in-out',      label: '7. Slow In & Out',       desc: 'Easing at extremes' },
+    { name: 'arc',              label: '8. Arc',                 desc: 'Natural curved paths' },
+    { name: 'secondary-action', label: '9. Secondary Action',    desc: 'Supporting motion' },
+    { name: 'timing',           label: '10. Timing',             desc: 'Rhythm & personality' },
+    { name: 'exaggeration',     label: '11. Exaggeration',       desc: 'Push for impact' },
+    { name: 'appeal',           label: '12. Appeal',             desc: 'Charisma & charm' },
+  ];
+
+  function makePrincipleTile(p) {
+    const parent = document.getElementById('principles');
+    const tile = document.createElement('div');
+    tile.className = 'tile';
+
+    const scale = document.createElement('div');
+    scale.className = 'tile-scale';
+    const grid = document.createElement('div');
+    grid.className = 'pixel-grid';
+    scale.appendChild(grid);
+
+    const label = document.createElement('div');
+    label.className = 'label principle-label';
+    label.textContent = p.label;
+
+    const desc = document.createElement('div');
+    desc.className = 'principle-desc';
+    desc.textContent = p.desc;
+
+    tile.appendChild(scale);
+    tile.appendChild(label);
+    tile.appendChild(desc);
+    parent.appendChild(tile);
+
+    PixelGrid.create(grid, { animation: p.name });
+  }
+
+  principles.forEach(makePrincipleTile);
+
+  document.querySelectorAll('#scale-tabs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.documentElement.style.setProperty('--tile-scale', btn.dataset.scale);
+      document.querySelectorAll('#scale-tabs button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  const NAMED_COLORS = ['cyan','magenta','yellow','green','orange','blue','red','purple','white','teal','pink','lime'];
+
+  function setMotionColor(color) {
+    const grids = document.querySelectorAll('#motion .pixel-grid, #principles .pixel-grid');
+    grids.forEach(grid => {
+      NAMED_COLORS.forEach(c => grid.classList.remove('pixel-grid--' + c));
+      grid.style.removeProperty('--pixel-on');
+      grid.style.removeProperty('--pixel-off');
+      grid.style.removeProperty('--pixel-glow');
+      if (!color) return;
+      if (/^#/.test(color)) {
+        grid.style.setProperty('--pixel-on', color);
+        grid.style.setProperty('--pixel-off', 'color-mix(in oklch, ' + color + ' 25%, black)');
+        grid.style.setProperty('--pixel-glow', 'color-mix(in oklch, ' + color + ' 60%, transparent)');
+      } else {
+        grid.classList.add('pixel-grid--' + color);
+      }
+    });
+  }
+
+  document.querySelectorAll('#color-picker .swatch').forEach(btn => {
+    btn.addEventListener('click', () => {
+      setMotionColor(btn.dataset.color);
+      document.querySelectorAll('#color-picker .swatch').forEach(b => b.classList.remove('active'));
+      document.getElementById('custom-color').classList.remove('active');
+      btn.classList.add('active');
+    });
+  });
+
+  document.getElementById('custom-color').addEventListener('input', e => {
+    setMotionColor(e.target.value);
+    document.querySelectorAll('#color-picker .swatch').forEach(b => b.classList.remove('active'));
+    e.target.classList.add('active');
+  });
+
+  document.querySelectorAll('#aspect-tabs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const mode = btn.dataset.aspect;
+      document.body.classList.remove('aspect-16x9', 'aspect-9x16', 'aspect-21x9', 'shape-circle', 'shape-triangle');
+      if (mode === '16x9' || mode === '9x16' || mode === '21x9') {
+        document.body.classList.add('aspect-' + mode);
+      } else if (mode === 'circle' || mode === 'triangle') {
+        document.body.classList.add('shape-' + mode);
+      }
+      document.querySelectorAll('#aspect-tabs button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('#theme-tabs button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const theme = btn.dataset.theme;
+      document.body.classList.toggle('light', theme === 'light' || theme === 'flat-light');
+      document.body.classList.toggle('flat', theme === 'flat-light' || theme === 'flat-dark');
+      document.querySelectorAll('#theme-tabs button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
