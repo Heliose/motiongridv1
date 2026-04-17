@@ -115,6 +115,7 @@
   .controls-toggle .icon-close { display: none; }
   .controls-toggle.open .icon-open { display: none; }
   .controls-toggle.open .icon-close { display: block; }
+  .panel-close { display: none; }
   body.light .controls-toggle {
     background: rgba(255, 255, 255, 0.95);
     border-color: #ddd;
@@ -127,57 +128,94 @@
       right: auto;
       left: 50%;
       transform: translateX(-50%);
+      width: 52px;
+      height: 52px;
     }
+    .controls-toggle.open { display: none; }
+    .controls-toggle svg { width: 22px; height: 22px; }
     .floating-controls {
       display: none;
-      bottom: 72px;
+      bottom: 16px;
+      top: auto;
       left: 50%;
       right: auto;
       transform: translateX(-50%);
-      width: calc(100vw - 16px);
-      max-width: 600px;
-      max-height: calc(100vh - 100px);
+      width: calc(100vw - 24px);
+      max-width: 520px;
+      max-height: 55vh;
       overflow-y: auto;
-      padding: 14px;
-      gap: 12px;
-      border-radius: 12px;
+      padding: 22px 22px 28px;
+      gap: 22px;
+      border-radius: 18px;
     }
     .floating-controls.open { display: flex; }
+    .panel-close {
+      display: flex;
+      align-self: flex-end;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: transparent;
+      color: #aaa;
+      border: 1px solid #333;
+      cursor: pointer;
+      padding: 0;
+      margin-bottom: -6px;
+      transition: background 150ms, color 150ms, border-color 150ms;
+    }
+    .panel-close:hover,
+    .panel-close:active {
+      background: #2a2a2a;
+      color: #fff;
+    }
+    body.light .panel-close {
+      color: #666;
+      border-color: #ddd;
+    }
+    body.light .panel-close:hover,
+    body.light .panel-close:active {
+      background: #eee;
+      color: #111;
+    }
     .scale-tabs,
     .aspect-tabs,
     .theme-tabs {
       flex-wrap: wrap;
       justify-content: center;
-      gap: 4px;
+      gap: 8px;
     }
     .color-picker {
       flex-wrap: wrap;
       justify-content: center;
-      gap: 8px;
+      gap: 12px;
+      padding: 4px;
     }
     .scale-tabs button,
     .aspect-tabs button,
     .theme-tabs button {
-      padding: 10px 14px;
-      font-size: 14px;
-      border-radius: 6px;
+      padding: 14px 18px;
+      font-size: 15px;
+      border-radius: 10px;
     }
-    .aspect-tabs button.icon-only { padding: 10px 12px; }
+    .aspect-tabs button.icon-only { padding: 14px 16px; }
     .aspect-tabs button svg,
     .theme-tabs button svg {
-      width: 16px;
-      height: 16px;
+      width: 20px;
+      height: 20px;
     }
     .swatch {
-      width: 26px;
-      height: 26px;
+      width: 36px;
+      height: 36px;
+      border-width: 3px;
     }
     .custom-color {
-      width: 32px;
-      height: 32px;
+      width: 42px;
+      height: 42px;
     }
     .color-picker .divider {
-      height: 18px;
+      height: 28px;
     }
   }
   .scale-tabs,
@@ -479,6 +517,9 @@
       <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
     </button>
     <div class="floating-controls" id="controls-panel">
+      <button class="panel-close" id="panel-close" aria-label="Close controls">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
       <div class="scale-tabs" id="scale-tabs">
         <button data-scale="1">Original</button>
         <button data-scale="2">2x</button>
@@ -686,9 +727,14 @@
 
   const ctrlToggle = document.getElementById('controls-toggle');
   const ctrlPanel = document.getElementById('controls-panel');
+  const ctrlClose = document.getElementById('panel-close');
   ctrlToggle.addEventListener('click', () => {
     const isOpen = ctrlPanel.classList.toggle('open');
     ctrlToggle.classList.toggle('open', isOpen);
+  });
+  ctrlClose.addEventListener('click', () => {
+    ctrlPanel.classList.remove('open');
+    ctrlToggle.classList.remove('open');
   });
 </script>
 
