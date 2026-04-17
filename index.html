@@ -11,7 +11,7 @@
     color: #ddd;
     font-family: -apple-system, system-ui, sans-serif;
     margin: 0;
-    padding: 40px 20px 200px;
+    padding: 40px 20px 400px;
   }
   h1 {
     text-align: center;
@@ -82,12 +82,12 @@
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid #333;
-    border-radius: 8px;
-    padding: 6px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+    border-radius: 16px;
+    padding: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 12px;
     max-width: calc(100vw - 40px);
     max-height: calc(100vh - 32px);
     overflow-y: auto;
@@ -116,6 +116,77 @@
   .controls-toggle.open .icon-open { display: none; }
   .controls-toggle.open .icon-close { display: block; }
   .panel-close { display: none; }
+  .size-toggle {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: transparent;
+    color: #888;
+    border: 1px solid #333;
+    cursor: pointer;
+    padding: 0;
+    transition: background 150ms, color 150ms;
+  }
+  .size-toggle:hover {
+    background: #2a2a2a;
+    color: #fff;
+  }
+  body.light .size-toggle {
+    color: #666;
+    border-color: #ddd;
+  }
+  body.light .size-toggle:hover {
+    background: #eee;
+    color: #111;
+  }
+  .size-toggle .icon-grow { display: none; }
+  .floating-controls.panel-1x .size-toggle .icon-grow { display: block; }
+  .floating-controls.panel-1x .size-toggle .icon-shrink { display: none; }
+  .floating-controls { padding-top: 40px; }
+  .floating-controls.panel-1x {
+    padding: 20px 6px 6px;
+    gap: 6px;
+    border-radius: 8px;
+  }
+  .floating-controls.panel-1x .size-toggle {
+    width: 18px;
+    height: 18px;
+    top: 4px;
+    right: 4px;
+  }
+  .floating-controls.panel-1x .size-toggle svg {
+    width: 10px;
+    height: 10px;
+  }
+  .floating-controls.panel-1x .scale-tabs button,
+  .floating-controls.panel-1x .aspect-tabs button,
+  .floating-controls.panel-1x .theme-tabs button {
+    padding: 5px 10px;
+    font-size: 11px;
+    border-radius: 4px;
+    gap: 5px;
+  }
+  .floating-controls.panel-1x .aspect-tabs button.icon-only { padding: 5px 7px; }
+  .floating-controls.panel-1x .aspect-tabs button svg { width: 14px; height: 14px; }
+  .floating-controls.panel-1x .theme-tabs button svg { width: 12px; height: 12px; }
+  .floating-controls.panel-1x .scale-tabs,
+  .floating-controls.panel-1x .aspect-tabs,
+  .floating-controls.panel-1x .theme-tabs { gap: 2px; }
+  .floating-controls.panel-1x .color-picker { gap: 4px; padding: 2px 4px 0; }
+  .floating-controls.panel-1x .swatch { width: 16px; height: 16px; border-width: 2px; }
+  .floating-controls.panel-1x .custom-color { width: 22px; height: 22px; border-width: 1px; }
+  .floating-controls.panel-1x .custom-color.active { border-width: 2px; }
+  .floating-controls.panel-1x .color-picker .divider { width: 1px; height: 14px; margin: 0 2px; }
+  @media (max-width: 720px) {
+    .size-toggle { display: none; }
+    .floating-controls { padding-top: 22px; }
+  }
   body.light .controls-toggle {
     background: rgba(255, 255, 255, 0.95);
     border-color: #ddd;
@@ -221,7 +292,7 @@
   .scale-tabs,
   .aspect-tabs {
     display: flex;
-    gap: 2px;
+    gap: 4px;
     background: transparent;
     border: none;
     padding: 0;
@@ -232,22 +303,24 @@
     background: transparent;
     color: #888;
     border: none;
-    padding: 5px 10px;
-    font-size: 11px;
+    padding: 10px 20px;
+    font-size: 22px;
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     letter-spacing: 0.03em;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background 150ms, color 150ms;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
   }
-  .aspect-tabs button.icon-only { padding: 5px 7px; }
+  .aspect-tabs button.icon-only { padding: 10px 14px; }
   .aspect-tabs button svg,
   .theme-tabs button svg {
     display: block;
   }
+  .aspect-tabs button svg { width: 28px; height: 28px; }
+  .theme-tabs button svg { width: 24px; height: 24px; }
   .aspect-tabs button:hover { color: #ddd; }
   .aspect-tabs button.active {
     background: #2a2a2a;
@@ -349,7 +422,7 @@
   }
   .theme-tabs {
     display: flex;
-    gap: 2px;
+    gap: 4px;
     background: transparent;
     border: none;
     padding: 0;
@@ -360,16 +433,16 @@
     background: transparent;
     color: #888;
     border: none;
-    padding: 5px 10px;
-    font-size: 11px;
+    padding: 10px 20px;
+    font-size: 22px;
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     letter-spacing: 0.03em;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background 150ms, color 150ms;
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
   }
   .theme-tabs button:hover { color: #ddd; }
   .theme-tabs button.active {
@@ -378,17 +451,17 @@
   }
   .color-picker {
     display: flex;
-    gap: 4px;
+    gap: 8px;
     align-items: center;
-    padding: 2px 4px 0;
+    padding: 4px 8px 0;
     flex-wrap: wrap;
     justify-content: center;
   }
   .swatch {
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    border: 2px solid transparent;
+    border: 4px solid transparent;
     cursor: pointer;
     padding: 0;
     transition: transform 100ms ease-out, border-color 150ms;
@@ -401,16 +474,16 @@
     border-color: #fff;
   }
   .color-picker .divider {
-    width: 1px;
-    height: 14px;
+    width: 2px;
+    height: 28px;
     background: #333;
-    margin: 0 2px;
+    margin: 0 4px;
   }
   .custom-color {
-    width: 22px;
-    height: 22px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
-    border: 1px dashed #777;
+    border: 2px dashed #777;
     cursor: pointer;
     padding: 0;
     background: transparent;
@@ -424,17 +497,17 @@
   .custom-color.active {
     border-color: #fff;
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
   }
   .scale-tabs button {
     background: transparent;
     color: #888;
     border: none;
-    padding: 5px 10px;
-    font-size: 11px;
+    padding: 10px 20px;
+    font-size: 22px;
     font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
     letter-spacing: 0.03em;
-    border-radius: 4px;
+    border-radius: 8px;
     cursor: pointer;
     transition: background 150ms, color 150ms;
   }
@@ -517,6 +590,10 @@
       <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
     </button>
     <div class="floating-controls" id="controls-panel">
+      <button class="size-toggle" id="size-toggle" aria-label="Toggle panel size">
+        <svg class="icon-shrink" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 6 6 6 6 2"/><polyline points="12 6 8 6 8 2"/><polyline points="2 8 6 8 6 12"/><polyline points="12 8 8 8 8 12"/></svg>
+        <svg class="icon-grow" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="5 2 2 2 2 5"/><polyline points="9 2 12 2 12 5"/><polyline points="5 12 2 12 2 9"/><polyline points="9 12 12 12 12 9"/></svg>
+      </button>
       <button class="panel-close" id="panel-close" aria-label="Close controls">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
       </button>
@@ -735,6 +812,10 @@
   ctrlClose.addEventListener('click', () => {
     ctrlPanel.classList.remove('open');
     ctrlToggle.classList.remove('open');
+  });
+
+  document.getElementById('size-toggle').addEventListener('click', () => {
+    ctrlPanel.classList.toggle('panel-1x');
   });
 </script>
 
