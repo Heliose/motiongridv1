@@ -87,6 +87,73 @@
     display: flex;
     flex-direction: column;
     gap: 6px;
+    max-width: calc(100vw - 40px);
+  }
+  .controls-toggle {
+    display: none;
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 101;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid #333;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  .controls-toggle .icon-close { display: none; }
+  .controls-toggle.open .icon-open { display: none; }
+  .controls-toggle.open .icon-close { display: block; }
+  body.light .controls-toggle {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: #ddd;
+    color: #222;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  }
+  @media (max-width: 720px) {
+    .controls-toggle { display: flex; }
+    .floating-controls {
+      display: none;
+      top: 62px;
+      right: 8px;
+      left: 8px;
+      max-width: none;
+      padding: 8px;
+      gap: 8px;
+    }
+    .floating-controls.open { display: flex; }
+    .scale-tabs,
+    .aspect-tabs,
+    .theme-tabs {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .color-picker {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .scale-tabs button,
+    .aspect-tabs button,
+    .theme-tabs button {
+      padding: 7px 10px;
+      font-size: 12px;
+    }
+    .swatch {
+      width: 20px;
+      height: 20px;
+    }
+    .custom-color {
+      width: 26px;
+      height: 26px;
+    }
   }
   .scale-tabs,
   .aspect-tabs {
@@ -376,7 +443,11 @@
 <section>
   <div class="toolbar">
     <h2>Motion Presets</h2>
-    <div class="floating-controls">
+    <button class="controls-toggle" id="controls-toggle" aria-label="Toggle controls">
+      <svg class="icon-open" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+      <svg class="icon-close" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+    </button>
+    <div class="floating-controls" id="controls-panel">
       <div class="scale-tabs" id="scale-tabs">
         <button data-scale="1">Original</button>
         <button data-scale="2">2x</button>
@@ -580,6 +651,13 @@
       document.querySelectorAll('#theme-tabs button').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
     });
+  });
+
+  const ctrlToggle = document.getElementById('controls-toggle');
+  const ctrlPanel = document.getElementById('controls-panel');
+  ctrlToggle.addEventListener('click', () => {
+    const isOpen = ctrlPanel.classList.toggle('open');
+    ctrlToggle.classList.toggle('open', isOpen);
   });
 </script>
 
