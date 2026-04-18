@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1081">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-15);
+      }
+
+      .cls-4 {
+        fill: #e5dfd3;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-6 {
+        stroke: #f6f2ea;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        fill: none;
+      }
+
+      .cls-6, .cls-7, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6, .cls-7, .cls-12, .cls-15 {
+        stroke-width: 3px;
+      }
+
+      .cls-16 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-7, .cls-10, .cls-11, .cls-15 {
+        stroke: #e5dfd3;
+      }
+
+      .cls-18 {
+        fill: #fff;
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-20 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-9 {
+        stroke-width: 5.14px;
+      }
+
+      .cls-9, .cls-12, .cls-13, .cls-14 {
+        stroke: #fff;
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-11 {
+        stroke-width: 7px;
+      }
+
+      .cls-24, .cls-15 {
+        fill: #f6f2ea;
+      }
+
+      .cls-13 {
+        stroke-width: 10.28px;
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-12);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-14);
+      }
+
+      .cls-14 {
+        stroke-width: 1.29px;
+      }
+
+      .cls-27 {
+        clip-path: url(#clippath-16);
+      }
+
+      .cls-28 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath-13);
+      }
+
+      .cls-30 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" x="-1959.18" y="-1127.58" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-8" x="-2043.3" y="-1255.25" width="2234.38" height="1336.34"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-4" x="0" y="1109.68" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-8" x="-572.56" y="755.91" width="3065.13" height="1788.54"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-4" x="-19.59" y="-1127.58" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-8" x="-309.33" y="-1221.14" width="2499.47" height="1268.13"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-4" x="-1959.59" y="1109.68" width="1919.84" height="1081.17"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-8" x="-3007.31" y="240.84" width="4015.43" height="2818.67"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-18" x="-1959.18" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-9">
+      <rect class="cls-8" x="-2989.55" y="-574.08" width="3963.69" height="2229.74"/>
+    </clipPath>
+    <clipPath id="clippath-10">
+      <rect class="cls-8" x="-3.85" width="1922.66" height="1081.58"/>
+    </clipPath>
+    <clipPath id="clippath-11">
+      <rect class="cls-8" x="-3.12" y="-318.67" width="1921.21" height="2464.27"/>
+    </clipPath>
+    <clipPath id="clippath-12">
+      <path class="cls-8" d="M0,2226.49l1920,.53L0,2924.94v-698.45Z"/>
+    </clipPath>
+    <clipPath id="clippath-13">
+      <polygon class="cls-8" points="0 2922.37 0 3281.84 1920 2583.92 1920 2224.45 0 2922.37"/>
+    </clipPath>
+    <clipPath id="clippath-14">
+      <polygon class="cls-8" points="0 3281.84 0 3305.11 1920 3305.64 1920 2583.92 0 3281.84"/>
+    </clipPath>
+    <clipPath id="clippath-15">
+      <rect class="cls-10" x="1967.18" y="1000.71" width="443.32" height="1091.83"/>
+    </clipPath>
+    <clipPath id="clippath-16">
+      <rect class="cls-8" x="2373" y="1005.27" width="443.32" height="1091.83"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect class="cls-4" x="-1959.18" y="-1127.58" width="1920" height="1081"/>
+    <g class="cls-30">
+      <g class="cls-20">
+        <g>
+          <g id="_Repetición_de_cuadrícula_" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="-109.01 -263.82 -109.01 191.53 132.78 103.58 132.78 -351.78 -109.01 -263.82"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-2" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="132.78 2.33 132.78 457.69 374.56 369.73 374.56 -85.62 132.78 2.33"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-4" x="0" y="1109.68" width="1920" height="1081"/>
+    <g class="cls-28">
+      <g class="cls-23">
+        <g>
+          <g id="_Repetición_de_cuadrícula_-3" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-6" points="131.47 1105.71 131.47 1375.54 -169.53 1262.17 -169.53 992.34 131.47 1105.71"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-4" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <g>
+              <polygon class="cls-6" points="-2.87 836.02 -2.87 1105.84 298.13 992.47 298.13 722.65 -2.87 836.02"/>
+              <polygon class="cls-6" points="599.14 1105.71 599.14 1375.54 298.13 1262.17 298.13 992.34 599.14 1105.71"/>
+            </g>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-5" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <g>
+              <polygon class="cls-6" points="464.79 836.02 464.79 1105.84 765.8 992.47 765.8 722.65 464.79 836.02"/>
+              <polygon class="cls-6" points="1066.8 1105.71 1066.8 1375.54 765.8 1262.17 765.8 992.34 1066.8 1105.71"/>
+            </g>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-6" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <g>
+              <polygon class="cls-6" points="932.46 836.02 932.46 1105.84 1233.46 992.47 1233.46 722.65 932.46 836.02"/>
+              <polygon class="cls-6" points="1534.47 1105.71 1534.47 1375.54 1233.46 1262.17 1233.46 992.34 1534.47 1105.71"/>
+            </g>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-7" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <g>
+              <polygon class="cls-6" points="1400.12 836.02 1400.12 1105.84 1701.13 992.47 1701.13 722.65 1400.12 836.02"/>
+              <polygon class="cls-6" points="2002.13 1105.71 2002.13 1375.54 1701.13 1262.17 1701.13 992.34 2002.13 1105.71"/>
+            </g>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-8" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-6" points="1867.79 836.02 1867.79 1105.84 2168.79 992.47 2168.79 722.65 1867.79 836.02"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-4" x="-19.59" y="-1127.58" width="1920" height="1081"/>
+    <g class="cls-5">
+      <g class="cls-21">
+        <g>
+          <g id="_Repetición_de_cuadrícula_-9" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="244.76 50.37 244.76 290.24 -32.28 189.46 -32.28 -50.41 244.76 50.37"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-10" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="521.81 -149.71 521.81 90.16 244.76 -10.63 244.76 -250.49 521.81 -149.71"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-11" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="798.85 50.37 798.85 290.24 521.81 189.46 521.81 -50.41 798.85 50.37"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-12" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="1075.9 -149.71 1075.9 90.16 798.85 -10.63 798.85 -250.49 1075.9 -149.71"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-13" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="1352.94 50.37 1352.94 290.24 1075.9 189.46 1075.9 -50.41 1352.94 50.37"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-14" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="1629.99 -149.71 1629.99 90.16 1352.94 -10.63 1352.94 -250.49 1629.99 -149.71"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-15" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="1907.03 50.37 1907.03 290.24 1629.99 189.46 1629.99 -50.41 1907.03 50.37"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-16" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-24" points="2184.07 -149.71 2184.07 90.16 1907.03 -10.63 1907.03 -250.49 2184.07 -149.71"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-4" x="-1959.59" y="1109.68" width="1919.84" height="1081.17"/>
+    <g class="cls-1">
+      <g class="cls-2">
+        <g>
+          <g id="_Repetición_de_cuadrícula_-17" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <path class="cls-24" d="M32.76,618.49h-552.74v-175.41L32.76,242.01v376.48Z"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-18" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <path class="cls-24" d="M585.51,618.49H32.76v-175.41l552.74-201.07v376.48Z"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-19" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <path class="cls-24" d="M1138.25,618.49h-552.74v-175.41l552.74-201.07v376.48Z"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-20" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <path class="cls-24" d="M309.14,1054.97H-243.61v-175.41l552.74-201.07v376.48Z"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-21" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <path class="cls-24" d="M861.88,1054.97H309.14v-175.41l552.74-201.07v376.48Z"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-22" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <path class="cls-24" d="M1414.62,1054.97h-552.74v-175.41l552.74-201.07v376.48Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-18" x="-1959.18" width="1920" height="1081"/>
+    <g class="cls-22">
+      <g class="cls-16">
+        <g>
+          <polygon class="cls-15" points="-332.9 -21.83 -332.9 116.23 46.63 -21.83 -332.9 -21.83"/>
+          <polygon class="cls-15" points="426.15 116.23 426.15 -21.83 46.63 116.23 426.15 116.23"/>
+          <g>
+            <polygon class="cls-15" points="1185.19 254.29 1185.19 116.23 805.67 254.29 1185.19 254.29"/>
+            <polygon class="cls-15" points="1185.19 -21.83 1185.19 116.23 1564.71 -21.83 1185.19 -21.83"/>
+          </g>
+          <polygon class="cls-15" points="-332.9 254.29 -332.9 392.35 46.63 254.29 -332.9 254.29"/>
+          <g>
+            <polygon class="cls-15" points="426.15 392.35 426.15 254.29 46.63 392.35 426.15 392.35"/>
+            <polygon class="cls-15" points="426.15 116.23 426.15 254.29 805.67 116.23 426.15 116.23"/>
+          </g>
+          <g>
+            <polygon class="cls-15" points="1185.19 530.42 1185.19 392.35 805.67 530.42 1185.19 530.42"/>
+            <polygon class="cls-15" points="1185.19 254.29 1185.19 392.35 1564.71 254.29 1185.19 254.29"/>
+          </g>
+          <polygon class="cls-15" points="-332.9 530.42 -332.9 668.48 46.63 530.42 -332.9 530.42"/>
+          <g>
+            <polygon class="cls-15" points="426.15 668.48 426.15 530.42 46.63 668.48 426.15 668.48"/>
+            <polygon class="cls-15" points="426.15 392.35 426.15 530.42 805.67 392.35 426.15 392.35"/>
+          </g>
+          <g>
+            <polygon class="cls-15" points="1185.19 806.54 1185.19 668.48 805.67 806.54 1185.19 806.54"/>
+            <polygon class="cls-15" points="1185.19 530.42 1185.19 668.48 1564.71 530.42 1185.19 530.42"/>
+          </g>
+          <polygon class="cls-15" points="-332.9 806.54 -332.9 944.6 46.63 806.54 -332.9 806.54"/>
+          <g>
+            <polygon class="cls-15" points="426.15 944.6 426.15 806.54 46.63 944.6 426.15 944.6"/>
+            <polygon class="cls-15" points="426.15 668.48 426.15 806.54 805.67 668.48 426.15 668.48"/>
+          </g>
+          <g>
+            <polygon class="cls-15" points="1185.19 1082.66 1185.19 944.6 805.67 1082.66 1185.19 1082.66"/>
+            <polygon class="cls-15" points="1185.19 806.54 1185.19 944.6 1564.71 806.54 1185.19 806.54"/>
+          </g>
+          <g>
+            <polygon class="cls-15" points="426.15 1220.73 426.15 1082.66 46.63 1220.73 426.15 1220.73"/>
+            <polygon class="cls-15" points="426.15 944.6 426.15 1082.66 805.67 944.6 426.15 944.6"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect class="cls-4" width="1920" height="1081"/>
+  <g class="cls-17">
+    <g class="cls-19">
+      <g>
+        <g id="_Repetición_de_cuadrícula_-23" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,5.6l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-24" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,5.6l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-25" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,27.58l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-26" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,27.58l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-27" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,49.56l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-28" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,49.56l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-29" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,71.53l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-30" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,71.53l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-31" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,93.51l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-32" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,93.51l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-33" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,115.49l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-34" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,115.49l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-35" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,137.47l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-36" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,137.47l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-37" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,159.45l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-38" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,159.45l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-39" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,181.43l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-40" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,181.43l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-41" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,203.41L1917.49-495.43"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-42" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,203.41l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-43" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,225.39L1917.49-473.45"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-44" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,225.39l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-45" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,247.37L1917.49-451.47"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-46" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,247.37l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-47" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,269.35L1917.49-429.49"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-48" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,269.35l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-49" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,291.32L1917.49-407.51"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-50" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,291.32l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-51" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,313.3L1917.49-385.53"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-52" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,313.3l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-53" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,335.28L1917.49-363.56"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-54" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,335.28l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-55" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,357.26L1917.49-341.58"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-56" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,357.26l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-57" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,379.24L1917.49-319.6"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-58" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,379.24l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-59" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,401.22L1917.49-297.62"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-60" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,401.22l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-61" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,423.2L1917.49-275.64"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-62" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,423.2l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-63" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,445.18L1917.49-253.66"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-64" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,445.18L3838.52-253.66"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-65" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,467.16L1917.49-231.68"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-66" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,467.16L3838.52-231.68"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-67" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,489.13L1917.49-209.7"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-68" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,489.13L3838.52-209.7"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-69" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,511.11L1917.49-187.72"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-70" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,511.11L3838.52-187.72"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-71" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,533.09L1917.49-165.74"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-72" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,533.09L3838.52-165.74"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-73" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,555.07L1917.49-143.77"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-74" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,555.07L3838.52-143.77"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-75" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,577.05L1917.49-121.79"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-76" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,577.05L3838.52-121.79"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-77" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,599.03L1917.49-99.81"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-78" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,599.03L3838.52-99.81"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-79" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,621.01L1917.49-77.83"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-80" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,621.01L3838.52-77.83"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-81" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,642.99L1917.49-55.85"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-82" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,642.99L3838.52-55.85"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-83" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,664.97L1917.49-33.87"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-84" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,664.97L3838.52-33.87"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-85" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,686.95L1917.49-11.89"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-86" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,686.95L3838.52-11.89"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-87" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,708.92L1917.49,10.09"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-88" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,708.92L3838.52,10.09"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-89" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,730.9L1917.49,32.07"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-90" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,730.9L3838.52,32.07"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-91" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,752.88L1917.49,54.05"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-92" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,752.88L3838.52,54.05"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-93" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,774.86L1917.49,76.02"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-94" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,774.86L3838.52,76.02"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-95" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,796.84L1917.49,98"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-96" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,796.84L3838.52,98"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-97" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,818.82L1917.49,119.98"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-98" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,818.82L3838.52,119.98"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-99" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,840.8L1917.49,141.96"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-100" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,840.8L3838.52,141.96"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-101" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,862.78L1917.49,163.94"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-102" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,862.78L3838.52,163.94"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-103" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,884.76L1917.49,185.92"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-104" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,884.76L3838.52,185.92"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-105" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,906.74L1917.49,207.9"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-106" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,906.74L3838.52,207.9"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-107" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,928.71L1917.49,229.88"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-108" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,928.71L3838.52,229.88"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-109" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,950.69L1917.49,251.86"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-110" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,950.69L3838.52,251.86"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-111" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,972.67L1917.49,273.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-112" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,972.67l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-113" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,994.65L1917.49,295.81"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-114" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,994.65l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-115" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1016.63L1917.49,317.79"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-116" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1016.63l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-117" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1038.61L1917.49,339.77"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-118" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1038.61l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-119" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1060.59L1917.49,361.75"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-120" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1060.59l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-121" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1082.57L1917.49,383.73"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-122" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1082.57l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-123" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1104.55L1917.49,405.71"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-124" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1104.55l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-125" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1126.53L1917.49,427.69"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-126" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1126.53l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-127" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1148.5L1917.49,449.67"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-128" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1148.5l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-129" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1170.48L1917.49,471.65"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-130" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1170.48l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-131" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1192.46L1917.49,493.62"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-132" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1192.46l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-133" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1214.44l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-134" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1214.44l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-135" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1236.42l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-136" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1236.42l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-137" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1258.4l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-138" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1258.4l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-139" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1280.38l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-140" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1280.38l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-141" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1302.36l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-142" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1302.36l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-143" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1324.34l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-144" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1324.34l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-145" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1346.31l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-146" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1346.31l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-147" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1368.29l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-148" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1368.29l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-149" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1390.27l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-150" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1390.27l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-151" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1412.25l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-152" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1412.25l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-153" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1434.23l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-154" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1434.23l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-155" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1456.21l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-156" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1456.21l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-157" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1478.19l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-158" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1478.19l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-159" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1500.17l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-160" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1500.17l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-161" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1522.15l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-162" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1522.15l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-163" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1544.13l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-164" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1544.13l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-165" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1566.1l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-166" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1566.1l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-167" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1588.08l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-168" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1588.08l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-169" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1610.06l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-170" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1610.06l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-171" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1632.04l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-172" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1632.04l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-173" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1654.02l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-174" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1654.02l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-175" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1676l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-176" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1676l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-177" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1697.98l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-178" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1697.98l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-179" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1719.96l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-180" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1719.96l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-181" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1741.94l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-182" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1741.94l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-183" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M-2.51,1763.92l1920-698.84"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-184" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-12" d="M1918.52,1763.92l1920-698.84"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <g id="_Repetición_de_cuadrícula_-186" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-18" points="771.37 55.68 771.37 -84.94 384.81 55.68 771.37 55.68"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-187" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-18" points="1544.48 55.68 1544.48 -84.94 1157.92 55.68 1544.48 55.68"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-188" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-18" points="-1.74 55.68 -1.74 196.31 384.81 55.68 -1.74 55.68"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-189" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="771.37 336.93 771.37 196.31 384.81 336.93 771.37 336.93"/>
+          <polygon class="cls-18" points="771.37 55.68 771.37 196.31 1157.92 55.68 771.37 55.68"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-190" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="1544.48 336.93 1544.48 196.31 1157.92 336.93 1544.48 336.93"/>
+          <polygon class="cls-18" points="1544.48 55.68 1544.48 196.31 1931.04 55.68 1544.48 55.68"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-191" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-18" points="-1.74 336.93 -1.74 477.55 384.81 336.93 -1.74 336.93"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-192" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="771.37 618.17 771.37 477.55 384.81 618.17 771.37 618.17"/>
+          <polygon class="cls-18" points="771.37 336.93 771.37 477.55 1157.92 336.93 771.37 336.93"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-193" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="1544.48 618.17 1544.48 477.55 1157.92 618.17 1544.48 618.17"/>
+          <polygon class="cls-18" points="1544.48 336.93 1544.48 477.55 1931.04 336.93 1544.48 336.93"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-194" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-18" points="-1.74 618.17 -1.74 758.79 384.81 618.17 -1.74 618.17"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-195" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="771.37 899.41 771.37 758.79 384.81 899.41 771.37 899.41"/>
+          <polygon class="cls-18" points="771.37 618.17 771.37 758.79 1157.92 618.17 771.37 618.17"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-196" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="1544.48 899.41 1544.48 758.79 1157.92 899.41 1544.48 899.41"/>
+          <polygon class="cls-18" points="1544.48 618.17 1544.48 758.79 1931.04 618.17 1544.48 618.17"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-197" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-18" points="-1.74 899.41 -1.74 1040.03 384.81 899.41 -1.74 899.41"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-198" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="771.37 1180.65 771.37 1040.03 384.81 1180.65 771.37 1180.65"/>
+          <polygon class="cls-18" points="771.37 899.41 771.37 1040.03 1157.92 899.41 771.37 899.41"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-199" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-18" points="1544.48 1180.65 1544.48 1040.03 1157.92 1180.65 1544.48 1180.65"/>
+          <polygon class="cls-18" points="1544.48 899.41 1544.48 1040.03 1931.04 899.41 1544.48 899.41"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g class="cls-25">
+      <g>
+        <g id="_Repetición_de_cuadrícula_-200" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-14" d="M-58.22,1545.91l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-201" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-14" d="M-58.22,1599.7l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-202" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-14" d="M-58.22,1653.5l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-203" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-14" d="M-58.22,1707.29l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-204" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-14" d="M-58.22,1761.08l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-205" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-14" d="M-58.22,1814.88l2036.48-741.23"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-29">
+      <g>
+        <g id="_Repetición_de_cuadrícula_-206" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-9" d="M-58.22,1543.34l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-207" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-9" d="M-58.22,1597.13l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-208" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-9" d="M-58.22,1650.92l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-209" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-9" d="M-58.22,1704.72l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-210" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-9" d="M-58.22,1758.51l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-211" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-9" d="M-58.22,1812.3l2036.48-741.23"/>
+        </g>
+      </g>
+    </g>
+    <g class="cls-26">
+      <g>
+        <g id="_Repetición_de_cuadrícula_-212" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-13" d="M-58.22,1535.62l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-213" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-13" d="M-58.22,1589.42l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-214" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-13" d="M-58.22,1643.21l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-215" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-13" d="M-58.22,1697l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-216" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-13" d="M-58.22,1750.8l2036.48-741.23"/>
+        </g>
+        <g id="_Repetición_de_cuadrícula_-217" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+          <path class="cls-13" d="M-58.22,1804.59l2036.48-741.23"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <g class="cls-3">
+        <g>
+          <line class="cls-7" x1="1137.98" y1="1309.68" x2="4665.69" y2="9.6"/>
+          <line class="cls-7" x1="1140.31" y1="1351.43" x2="4668.02" y2="51.36"/>
+          <line class="cls-7" x1="1142.64" y1="1393.18" x2="4670.35" y2="93.13"/>
+          <line class="cls-7" x1="1144.97" y1="1434.93" x2="4672.68" y2="134.89"/>
+          <line class="cls-7" x1="1147.3" y1="1476.68" x2="4675.01" y2="176.65"/>
+          <line class="cls-7" x1="1149.63" y1="1518.43" x2="4677.34" y2="218.41"/>
+          <line class="cls-7" x1="1151.96" y1="1560.18" x2="4679.67" y2="260.18"/>
+          <line class="cls-7" x1="1154.29" y1="1601.93" x2="4682" y2="301.94"/>
+          <line class="cls-7" x1="1156.63" y1="1643.68" x2="4684.33" y2="343.7"/>
+          <line class="cls-7" x1="1158.96" y1="1685.43" x2="4686.67" y2="385.46"/>
+          <line class="cls-7" x1="1161.29" y1="1727.18" x2="4689" y2="427.23"/>
+          <line class="cls-7" x1="1163.62" y1="1768.93" x2="4691.33" y2="468.99"/>
+          <line class="cls-7" x1="1165.95" y1="1810.69" x2="4693.66" y2="510.75"/>
+          <line class="cls-7" x1="1168.28" y1="1852.44" x2="4695.99" y2="552.51"/>
+          <line class="cls-7" x1="1170.61" y1="1894.19" x2="4698.32" y2="594.27"/>
+          <line class="cls-7" x1="1172.94" y1="1935.94" x2="4700.65" y2="636.04"/>
+          <line class="cls-7" x1="1175.27" y1="1977.69" x2="4702.98" y2="677.8"/>
+          <line class="cls-7" x1="1177.61" y1="2019.44" x2="4705.32" y2="719.56"/>
+          <line class="cls-7" x1="1179.94" y1="2061.19" x2="4707.65" y2="761.32"/>
+          <line class="cls-7" x1="1182.27" y1="2102.94" x2="4709.98" y2="803.09"/>
+          <line class="cls-7" x1="1184.6" y1="2144.69" x2="4712.31" y2="844.85"/>
+          <line class="cls-7" x1="1186.93" y1="2186.44" x2="4714.64" y2="886.61"/>
+          <line class="cls-7" x1="1189.26" y1="2228.19" x2="4716.97" y2="928.37"/>
+          <line class="cls-7" x1="1191.59" y1="2269.94" x2="4719.3" y2="970.14"/>
+          <line class="cls-7" x1="1193.92" y1="2311.69" x2="4721.63" y2="1011.9"/>
+          <line class="cls-7" x1="1196.25" y1="2353.45" x2="4723.96" y2="1053.66"/>
+        </g>
+      </g>
+      <rect class="cls-10" x="1967.18" y="1000.71" width="443.32" height="1091.83"/>
+    </g>
+    <g class="cls-27">
+      <g>
+        <line class="cls-11" x1="1543.8" y1="1314.24" x2="5071.51" y2="14.17"/>
+        <line class="cls-11" x1="1546.13" y1="1355.99" x2="5073.84" y2="55.93"/>
+        <line class="cls-11" x1="1548.46" y1="1397.74" x2="5076.17" y2="97.69"/>
+        <line class="cls-11" x1="1550.79" y1="1439.49" x2="5078.5" y2="139.45"/>
+        <line class="cls-11" x1="1553.12" y1="1481.24" x2="5080.83" y2="181.21"/>
+        <line class="cls-11" x1="1555.45" y1="1522.99" x2="5083.16" y2="222.98"/>
+        <line class="cls-11" x1="1557.78" y1="1564.74" x2="5085.49" y2="264.74"/>
+        <line class="cls-11" x1="1560.11" y1="1606.5" x2="5087.82" y2="306.5"/>
+        <line class="cls-11" x1="1562.44" y1="1648.25" x2="5090.15" y2="348.26"/>
+        <line class="cls-11" x1="1564.78" y1="1690" x2="5092.49" y2="390.03"/>
+        <line class="cls-11" x1="1567.11" y1="1731.75" x2="5094.82" y2="431.79"/>
+        <line class="cls-11" x1="1569.44" y1="1773.5" x2="5097.15" y2="473.55"/>
+        <line class="cls-11" x1="1571.77" y1="1815.25" x2="5099.48" y2="515.31"/>
+        <line class="cls-11" x1="1574.1" y1="1857" x2="5101.81" y2="557.08"/>
+        <line class="cls-11" x1="1576.43" y1="1898.75" x2="5104.14" y2="598.84"/>
+        <line class="cls-11" x1="1578.76" y1="1940.5" x2="5106.47" y2="640.6"/>
+        <line class="cls-11" x1="1581.09" y1="1982.25" x2="5108.8" y2="682.36"/>
+        <line class="cls-11" x1="1583.42" y1="2024" x2="5111.13" y2="724.12"/>
+        <line class="cls-11" x1="1585.76" y1="2065.75" x2="5113.47" y2="765.89"/>
+        <line class="cls-11" x1="1588.09" y1="2107.5" x2="5115.8" y2="807.65"/>
+        <line class="cls-11" x1="1590.42" y1="2149.26" x2="5118.13" y2="849.41"/>
+        <line class="cls-11" x1="1592.75" y1="2191.01" x2="5120.46" y2="891.17"/>
+        <line class="cls-11" x1="1595.08" y1="2232.76" x2="5122.79" y2="932.94"/>
+        <line class="cls-11" x1="1597.41" y1="2274.51" x2="5125.12" y2="974.7"/>
+        <line class="cls-11" x1="1599.74" y1="2316.26" x2="5127.45" y2="1016.46"/>
+        <line class="cls-11" x1="1602.07" y1="2358.01" x2="5129.78" y2="1058.22"/>
+      </g>
+    </g>
+  </g>
+</svg>

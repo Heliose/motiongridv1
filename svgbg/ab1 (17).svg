@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1081">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #e31837;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-6 {
+        fill: #f8b4a3;
+      }
+
+      .cls-2 {
+        stroke: #5f0229;
+        stroke-width: 1px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.33px;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-9 {
+        fill: #e31837;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-6" x="1973.41" y="-1105.72" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="1077.6" y="-1658.15" width="3906.29" height="2197.45"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-6" x=".2" y="-1105.33" width="1919.59" height="1080.77"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-9" x="0" y="0" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-3" x="-52.74" y="-291.52" width="2025.49" height="1664.03"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect class="cls-6" x="1973.41" y="-1105.72" width="1920" height="1081"/>
+    <g class="cls-11">
+      <g class="cls-7">
+        <g>
+          <g id="_Repetición_de_cuadrícula_" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-4" points="1440.27 115.67 1440.27 -20.4 1066.25 115.67 1440.27 115.67"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-2" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <g>
+              <polygon class="cls-4" points="1440.27 389.13 1440.27 253.06 1066.25 389.13 1440.27 389.13"/>
+              <polygon class="cls-4" points="1440.27 117 1440.27 253.06 1814.3 117 1440.27 117"/>
+            </g>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-3" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-4" points="2195.89 252.4 2195.89 116.33 1821.87 252.4 2195.89 252.4"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-4" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <g>
+              <polygon class="cls-4" points="1440.27 662.59 1440.27 526.52 1066.25 662.59 1440.27 662.59"/>
+              <polygon class="cls-4" points="1440.27 390.46 1440.27 526.52 1814.3 390.46 1440.27 390.46"/>
+            </g>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-5" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-4" points="2195.89 525.86 2195.89 389.79 1821.87 525.86 2195.89 525.86"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-6" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-4" points="2195.89 799.32 2195.89 663.25 1821.87 799.32 2195.89 799.32"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-6" x=".2" y="-1105.33" width="1919.59" height="1080.77"/>
+    <g class="cls-10">
+      <path class="cls-1" d="M1797.32,210.99h-320.01V.36l320.01-116.41V210.99Z"/>
+      <path class="cls-1" d="M1157.39,210.99h-320.01V.36l320.01-116.41V210.99Z"/>
+      <path class="cls-1" d="M517.45,210.99H197.45V.36l320.01-116.41V210.99Z"/>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-9" x="0" y="0" width="1920" height="1081"/>
+    <g class="cls-8">
+      <g class="cls-5">
+        <g>
+          <g id="_Repetición_de_cuadrícula_-7" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="-164.6 -201.35 -164.6 -330.1 -423.96 -235.75 -423.96 -123.76 -240.32 -123.76 -240.32 5 19.04 -89.35 19.04 -201.35 -164.6 -201.35"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-8" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="504.74 -201.35 504.74 -330.1 245.38 -235.75 245.38 -123.76 429.02 -123.76 429.02 5 688.38 -89.35 688.38 -201.35 504.74 -201.35"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-9" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1174.08 -201.35 1174.08 -330.1 914.72 -235.75 914.72 -123.76 1098.36 -123.76 1098.36 5 1357.72 -89.35 1357.72 -201.35 1174.08 -201.35"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-10" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1843.42 -201.35 1843.42 -330.1 1584.06 -235.75 1584.06 -123.76 1767.7 -123.76 1767.7 5 2027.06 -89.35 2027.06 -201.35 1843.42 -201.35"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-11" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="170.07 -47.52 170.07 -176.27 -89.29 -81.93 -89.29 30.07 94.35 30.07 94.35 158.82 353.71 64.48 353.71 -47.52 170.07 -47.52"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-12" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="839.41 -47.52 839.41 -176.27 580.05 -81.93 580.05 30.07 763.69 30.07 763.69 158.82 1023.05 64.48 1023.05 -47.52 839.41 -47.52"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-13" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1508.75 -47.52 1508.75 -176.27 1249.39 -81.93 1249.39 30.07 1433.03 30.07 1433.03 158.82 1692.39 64.48 1692.39 -47.52 1508.75 -47.52"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-14" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="2178.09 -47.52 2178.09 -176.27 1918.73 -81.93 1918.73 30.07 2102.37 30.07 2102.37 158.82 2361.73 64.48 2361.73 -47.52 2178.09 -47.52"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-15" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="-164.6 106.31 -164.6 -22.45 -423.96 71.9 -423.96 183.9 -240.32 183.9 -240.32 312.65 19.04 218.3 19.04 106.31 -164.6 106.31"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-16" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="504.74 106.31 504.74 -22.45 245.38 71.9 245.38 183.9 429.02 183.9 429.02 312.65 688.38 218.3 688.38 106.31 504.74 106.31"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-17" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1174.08 106.31 1174.08 -22.45 914.72 71.9 914.72 183.9 1098.36 183.9 1098.36 312.65 1357.72 218.3 1357.72 106.31 1174.08 106.31"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-18" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1843.42 106.31 1843.42 -22.45 1584.06 71.9 1584.06 183.9 1767.7 183.9 1767.7 312.65 2027.06 218.3 2027.06 106.31 1843.42 106.31"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-19" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="170.07 260.13 170.07 131.38 -89.29 225.72 -89.29 337.72 94.35 337.72 94.35 466.48 353.71 372.13 353.71 260.13 170.07 260.13"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-20" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="839.41 260.13 839.41 131.38 580.05 225.72 580.05 337.72 763.69 337.72 763.69 466.48 1023.05 372.13 1023.05 260.13 839.41 260.13"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-21" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1508.75 260.13 1508.75 131.38 1249.39 225.72 1249.39 337.72 1433.03 337.72 1433.03 466.48 1692.39 372.13 1692.39 260.13 1508.75 260.13"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-22" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="2178.09 260.13 2178.09 131.38 1918.73 225.72 1918.73 337.72 2102.37 337.72 2102.37 466.48 2361.73 372.13 2361.73 260.13 2178.09 260.13"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-23" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="-164.6 413.96 -164.6 285.2 -423.96 379.55 -423.96 491.55 -240.32 491.55 -240.32 620.3 19.04 525.95 19.04 413.96 -164.6 413.96"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-24" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="504.74 413.96 504.74 285.2 245.38 379.55 245.38 491.55 429.02 491.55 429.02 620.3 688.38 525.95 688.38 413.96 504.74 413.96"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-25" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1174.08 413.96 1174.08 285.2 914.72 379.55 914.72 491.55 1098.36 491.55 1098.36 620.3 1357.72 525.95 1357.72 413.96 1174.08 413.96"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-26" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1843.42 413.96 1843.42 285.2 1584.06 379.55 1584.06 491.55 1767.7 491.55 1767.7 620.3 2027.06 525.95 2027.06 413.96 1843.42 413.96"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-27" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="170.07 567.78 170.07 439.03 -89.29 533.38 -89.29 645.37 94.35 645.37 94.35 774.13 353.71 679.78 353.71 567.78 170.07 567.78"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-28" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="839.41 567.78 839.41 439.03 580.05 533.38 580.05 645.37 763.69 645.37 763.69 774.13 1023.05 679.78 1023.05 567.78 839.41 567.78"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-29" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1508.75 567.78 1508.75 439.03 1249.39 533.38 1249.39 645.37 1433.03 645.37 1433.03 774.13 1692.39 679.78 1692.39 567.78 1508.75 567.78"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-30" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="2178.09 567.78 2178.09 439.03 1918.73 533.38 1918.73 645.37 2102.37 645.37 2102.37 774.13 2361.73 679.78 2361.73 567.78 2178.09 567.78"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-31" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="-164.6 721.61 -164.6 592.85 -423.96 687.2 -423.96 799.2 -240.32 799.2 -240.32 927.95 19.04 833.6 19.04 721.61 -164.6 721.61"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-32" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="504.74 721.61 504.74 592.85 245.38 687.2 245.38 799.2 429.02 799.2 429.02 927.95 688.38 833.6 688.38 721.61 504.74 721.61"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-33" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1174.08 721.61 1174.08 592.85 914.72 687.2 914.72 799.2 1098.36 799.2 1098.36 927.95 1357.72 833.6 1357.72 721.61 1174.08 721.61"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-34" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1843.42 721.61 1843.42 592.85 1584.06 687.2 1584.06 799.2 1767.7 799.2 1767.7 927.95 2027.06 833.6 2027.06 721.61 1843.42 721.61"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-35" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="170.07 875.43 170.07 746.68 -89.29 841.03 -89.29 953.02 94.35 953.02 94.35 1081.78 353.71 987.43 353.71 875.43 170.07 875.43"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-36" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="839.41 875.43 839.41 746.68 580.05 841.03 580.05 953.02 763.69 953.02 763.69 1081.78 1023.05 987.43 1023.05 875.43 839.41 875.43"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-37" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1508.75 875.43 1508.75 746.68 1249.39 841.03 1249.39 953.02 1433.03 953.02 1433.03 1081.78 1692.39 987.43 1692.39 875.43 1508.75 875.43"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-38" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="2178.09 875.43 2178.09 746.68 1918.73 841.03 1918.73 953.02 2102.37 953.02 2102.37 1081.78 2361.73 987.43 2361.73 875.43 2178.09 875.43"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-39" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="-164.6 1029.26 -164.6 900.51 -423.96 994.85 -423.96 1106.85 -240.32 1106.85 -240.32 1235.6 19.04 1141.26 19.04 1029.26 -164.6 1029.26"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-40" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="504.74 1029.26 504.74 900.51 245.38 994.85 245.38 1106.85 429.02 1106.85 429.02 1235.6 688.38 1141.26 688.38 1029.26 504.74 1029.26"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-41" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1174.08 1029.26 1174.08 900.51 914.72 994.85 914.72 1106.85 1098.36 1106.85 1098.36 1235.6 1357.72 1141.26 1357.72 1029.26 1174.08 1029.26"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-42" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1843.42 1029.26 1843.42 900.51 1584.06 994.85 1584.06 1106.85 1767.7 1106.85 1767.7 1235.6 2027.06 1141.26 2027.06 1029.26 1843.42 1029.26"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-43" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="170.07 1183.08 170.07 1054.33 -89.29 1148.68 -89.29 1260.67 94.35 1260.67 94.35 1389.43 353.71 1295.08 353.71 1183.08 170.07 1183.08"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-44" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="839.41 1183.08 839.41 1054.33 580.05 1148.68 580.05 1260.67 763.69 1260.67 763.69 1389.43 1023.05 1295.08 1023.05 1183.08 839.41 1183.08"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-45" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="1508.75 1183.08 1508.75 1054.33 1249.39 1148.68 1249.39 1260.67 1433.03 1260.67 1433.03 1389.43 1692.39 1295.08 1692.39 1183.08 1508.75 1183.08"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-46" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-2" points="2178.09 1183.08 2178.09 1054.33 1918.73 1148.68 1918.73 1260.67 2102.37 1260.67 2102.37 1389.43 2361.73 1295.08 2361.73 1183.08 2178.09 1183.08"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

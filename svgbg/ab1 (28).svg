@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1081">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-4 {
+        fill: #f8b4a3;
+      }
+
+      .cls-5 {
+        fill: #5f0229;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-10 {
+        fill: #e31837;
+      }
+
+      .cls-11 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-12 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-5" x="0" y="0" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-6" x="-159.63" y="-112.82" width="2239.26" height="1306.64"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-10" x="1973.41" y="1144.79" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-6" x="1683.67" y="1051.22" width="2499.47" height="1268.13"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-6" x="1973.41" y="33.8" width="1919.84" height="1081.17"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <rect class="cls-6" x="925.69" y="-835.04" width="4015.43" height="2818.67"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-10" y="1144.79" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-6" x="-1971.6" y="37.85" width="5858.15" height="3295.45"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect class="cls-5" x="0" y="0" width="1920" height="1081"/>
+    <g class="cls-12">
+      <g class="cls-7">
+        <g>
+          <g id="_Grid_Repeat_" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <polygon class="cls-10" points="21.82 142.73 21.82 339.86 -198.08 257.03 -198.08 59.91 21.82 142.73"/>
+          </g>
+          <g id="_Grid_Repeat_-2" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="-78.52 -54.29 -78.52 142.83 141.38 60.01 141.38 -137.12 -78.52 -54.29"/>
+              <polygon class="cls-10" points="361.28 142.73 361.28 339.86 141.38 257.03 141.38 59.91 361.28 142.73"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-3" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="260.95 -54.29 260.95 142.83 480.85 60.01 480.85 -137.12 260.95 -54.29"/>
+              <polygon class="cls-10" points="700.75 142.73 700.75 339.86 480.85 257.03 480.85 59.91 700.75 142.73"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-4" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="600.41 -54.29 600.41 142.83 820.31 60.01 820.31 -137.12 600.41 -54.29"/>
+              <polygon class="cls-10" points="1040.22 142.73 1040.22 339.86 820.31 257.03 820.31 59.91 1040.22 142.73"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-5" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="939.88 -54.29 939.88 142.83 1159.78 60.01 1159.78 -137.12 939.88 -54.29"/>
+              <polygon class="cls-10" points="1379.68 142.73 1379.68 339.86 1159.78 257.03 1159.78 59.91 1379.68 142.73"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-6" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="1279.34 -54.29 1279.34 142.83 1499.25 60.01 1499.25 -137.12 1279.34 -54.29"/>
+              <polygon class="cls-10" points="1719.15 142.73 1719.15 339.86 1499.25 257.03 1499.25 59.91 1719.15 142.73"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-7" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="1618.81 -54.29 1618.81 142.83 1838.71 60.01 1838.71 -137.12 1618.81 -54.29"/>
+              <polygon class="cls-10" points="2058.62 142.73 2058.62 339.86 1838.71 257.03 1838.71 59.91 2058.62 142.73"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-8" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <polygon class="cls-10" points="191.55 599.18 191.55 796.3 -28.35 713.48 -28.35 516.35 191.55 599.18"/>
+          </g>
+          <g id="_Grid_Repeat_-9" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="91.21 402.15 91.21 599.27 311.11 516.45 311.11 319.32 91.21 402.15"/>
+              <polygon class="cls-10" points="531.02 599.18 531.02 796.3 311.11 713.48 311.11 516.35 531.02 599.18"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-10" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="430.68 402.15 430.68 599.27 650.58 516.45 650.58 319.32 430.68 402.15"/>
+              <polygon class="cls-10" points="870.48 599.18 870.48 796.3 650.58 713.48 650.58 516.35 870.48 599.18"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-11" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="770.15 402.15 770.15 599.27 990.05 516.45 990.05 319.32 770.15 402.15"/>
+              <polygon class="cls-10" points="1209.95 599.18 1209.95 796.3 990.05 713.48 990.05 516.35 1209.95 599.18"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-12" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="1109.61 402.15 1109.61 599.27 1329.51 516.45 1329.51 319.32 1109.61 402.15"/>
+              <polygon class="cls-10" points="1549.42 599.18 1549.42 796.3 1329.51 713.48 1329.51 516.35 1549.42 599.18"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-13" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="1449.08 402.15 1449.08 599.27 1668.98 516.45 1668.98 319.32 1449.08 402.15"/>
+              <polygon class="cls-10" points="1888.88 599.18 1888.88 796.3 1668.98 713.48 1668.98 516.35 1888.88 599.18"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-14" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <polygon class="cls-10" points="1788.54 402.15 1788.54 599.27 2008.45 516.45 2008.45 319.32 1788.54 402.15"/>
+          </g>
+          <g id="_Grid_Repeat_-15" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <polygon class="cls-10" points="21.82 1055.62 21.82 1252.74 -198.08 1169.92 -198.08 972.79 21.82 1055.62"/>
+          </g>
+          <g id="_Grid_Repeat_-16" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="-78.52 858.59 -78.52 1055.71 141.38 972.89 141.38 775.76 -78.52 858.59"/>
+              <polygon class="cls-10" points="361.28 1055.62 361.28 1252.74 141.38 1169.92 141.38 972.79 361.28 1055.62"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-17" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="260.95 858.59 260.95 1055.71 480.85 972.89 480.85 775.76 260.95 858.59"/>
+              <polygon class="cls-10" points="700.75 1055.62 700.75 1252.74 480.85 1169.92 480.85 972.79 700.75 1055.62"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-18" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="600.41 858.59 600.41 1055.71 820.31 972.89 820.31 775.76 600.41 858.59"/>
+              <polygon class="cls-10" points="1040.22 1055.62 1040.22 1252.74 820.31 1169.92 820.31 972.79 1040.22 1055.62"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-19" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="939.88 858.59 939.88 1055.71 1159.78 972.89 1159.78 775.76 939.88 858.59"/>
+              <polygon class="cls-10" points="1379.68 1055.62 1379.68 1252.74 1159.78 1169.92 1159.78 972.79 1379.68 1055.62"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-20" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="1279.34 858.59 1279.34 1055.71 1499.25 972.89 1499.25 775.76 1279.34 858.59"/>
+              <polygon class="cls-10" points="1719.15 1055.62 1719.15 1252.74 1499.25 1169.92 1499.25 972.79 1719.15 1055.62"/>
+            </g>
+          </g>
+          <g id="_Grid_Repeat_-21" data-name="&amp;lt;Grid Repeat&amp;gt;">
+            <g>
+              <polygon class="cls-10" points="1618.81 858.59 1618.81 1055.71 1838.71 972.89 1838.71 775.76 1618.81 858.59"/>
+              <polygon class="cls-10" points="2058.62 1055.62 2058.62 1252.74 1838.71 1169.92 1838.71 972.79 2058.62 1055.62"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-10" x="1973.41" y="1144.79" width="1920" height="1081"/>
+    <g class="cls-11">
+      <g class="cls-9">
+        <g>
+          <g id="_Repetición_de_cuadrícula_" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-4" points="1960.72 922.17 1960.72 1162.03 1683.68 1061.25 1683.68 821.38 1960.72 922.17"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-2" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-4" points="1406.63 1122.25 1406.63 1362.11 1683.68 1261.33 1683.68 1021.47 1406.63 1122.25"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="cls-3">
+    <g class="cls-8">
+      <g>
+        <path class="cls-5" d="M925.69,348.11H372.95v-175.41L925.69-28.37v376.48Z"/>
+        <path class="cls-5" d="M1478.43,146.74h-552.74V-28.67l552.74-201.07V146.74Z"/>
+        <path class="cls-5" d="M2031.17,348.11h-552.74v-175.41L2031.17-28.37v376.48Z"/>
+        <path class="cls-5" d="M925.69,750.86H372.95v-175.41l552.74-201.07v376.48Z"/>
+        <path class="cls-5" d="M1478.43,549.49h-552.74v-175.41l552.74-201.07v376.48Z"/>
+        <path class="cls-5" d="M2031.17,750.86h-552.74v-175.41l552.74-201.07v376.48Z"/>
+        <path class="cls-5" d="M925.69,1153.62H372.95v-175.41l552.74-201.07v376.48Z"/>
+        <path class="cls-5" d="M1478.43,952.24h-552.74v-175.41l552.74-201.07v376.48Z"/>
+        <path class="cls-5" d="M2031.17,1153.62h-552.74v-175.41l552.74-201.07v376.48Z"/>
+        <path class="cls-5" d="M1478.43,1354.99h-552.74v-175.41l552.74-201.07v376.48Z"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-10" y="1144.79" width="1920" height="1081"/>
+    <g class="cls-1">
+      <g class="cls-2">
+        <g>
+          <polygon class="cls-5" points="-288.85 37.85 -288.85 241.9 272.07 37.85 -288.85 37.85"/>
+          <g>
+            <polygon class="cls-5" points="832.98 241.9 832.98 37.85 272.07 241.9 832.98 241.9"/>
+            <polygon class="cls-5" points="832.98 -166.2 832.98 37.85 1393.9 -166.2 832.98 -166.2"/>
+          </g>
+          <polygon class="cls-5" points="1954.81 445.95 1954.81 241.9 1393.9 445.95 1954.81 445.95"/>
+          <polygon class="cls-5" points="-288.85 445.95 -288.85 650 272.07 445.95 -288.85 445.95"/>
+          <g>
+            <polygon class="cls-5" points="832.98 650 832.98 445.95 272.07 650 832.98 650"/>
+            <polygon class="cls-5" points="832.98 241.9 832.98 445.95 1393.9 241.9 832.98 241.9"/>
+          </g>
+          <polygon class="cls-5" points="1954.81 854.05 1954.81 650 1393.9 854.05 1954.81 854.05"/>
+          <polygon class="cls-5" points="-288.85 854.05 -288.85 1058.1 272.07 854.05 -288.85 854.05"/>
+          <g>
+            <polygon class="cls-5" points="832.98 1058.1 832.98 854.05 272.07 1058.1 832.98 1058.1"/>
+            <polygon class="cls-5" points="832.98 650 832.98 854.05 1393.9 650 832.98 650"/>
+          </g>
+          <polygon class="cls-5" points="1954.81 1262.15 1954.81 1058.1 1393.9 1262.15 1954.81 1262.15"/>
+          <polygon class="cls-5" points="832.98 1058.1 832.98 1262.15 1393.9 1058.1 832.98 1058.1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

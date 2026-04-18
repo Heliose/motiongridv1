@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1081">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .86px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-38, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9, .cls-10, .cls-11, .cls-13, .cls-14, .cls-15, .cls-16, .cls-18, .cls-19, .cls-20, .cls-22, .cls-24, .cls-25, .cls-27, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-39, .cls-40, .cls-41, .cls-42, .cls-43, .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49 {
+        stroke: #e31837;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-8, .cls-10, .cls-11, .cls-16, .cls-19, .cls-20, .cls-27, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-35, .cls-36, .cls-45, .cls-47, .cls-48 {
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        stroke-width: 10.67px;
+      }
+
+      .cls-3 {
+        stroke-width: .64px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.29px;
+      }
+
+      .cls-50 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-51 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-5 {
+        stroke-width: .5px;
+      }
+
+      .cls-6 {
+        stroke-width: 5.42px;
+      }
+
+      .cls-52 {
+        fill: #e5dfd3;
+      }
+
+      .cls-53 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-7 {
+        stroke: #f6f2ea;
+      }
+
+      .cls-7, .cls-12 {
+        stroke-width: 3px;
+      }
+
+      .cls-8 {
+        stroke-width: 1.36px;
+      }
+
+      .cls-9 {
+        stroke-width: 4.25px;
+      }
+
+      .cls-10 {
+        stroke-width: .71px;
+      }
+
+      .cls-11 {
+        stroke-width: 1.86px;
+      }
+
+      .cls-12, .cls-21, .cls-23, .cls-38 {
+        stroke: #e5dfd3;
+      }
+
+      .cls-13 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-54 {
+        fill: #fff;
+      }
+
+      .cls-14 {
+        stroke-width: 11.25px;
+      }
+
+      .cls-15 {
+        stroke-width: .75px;
+      }
+
+      .cls-16 {
+        stroke-width: 1.14px;
+      }
+
+      .cls-18 {
+        stroke-width: 3.67px;
+      }
+
+      .cls-19 {
+        stroke-width: 1.71px;
+      }
+
+      .cls-55 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-20 {
+        stroke-width: 1.21px;
+      }
+
+      .cls-22 {
+        stroke-width: 9.5px;
+      }
+
+      .cls-56 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-57 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-58 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-23 {
+        stroke-width: 7px;
+      }
+
+      .cls-24 {
+        stroke-width: 7.75px;
+      }
+
+      .cls-25 {
+        stroke-width: 8.33px;
+      }
+
+      .cls-59 {
+        fill: #f6f2ea;
+      }
+
+      .cls-26 {
+        stroke: #fff;
+        stroke-width: 10.28px;
+      }
+
+      .cls-27 {
+        stroke-width: .93px;
+      }
+
+      .cls-28 {
+        stroke-width: 7.17px;
+      }
+
+      .cls-29 {
+        stroke-width: 1.57px;
+      }
+
+      .cls-30 {
+        stroke-width: 1.79px;
+      }
+
+      .cls-31 {
+        stroke-width: 1.07px;
+      }
+
+      .cls-32 {
+        stroke-width: .57px;
+      }
+
+      .cls-33 {
+        stroke-width: 1.93px;
+      }
+
+      .cls-34 {
+        stroke-width: 12.42px;
+      }
+
+      .cls-35 {
+        stroke-width: 1px;
+      }
+
+      .cls-36 {
+        stroke-width: .79px;
+      }
+
+      .cls-37 {
+        stroke-width: 10.08px;
+      }
+
+      .cls-38 {
+        stroke-width: 14px;
+      }
+
+      .cls-39 {
+        stroke-width: 3.08px;
+      }
+
+      .cls-60 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-40 {
+        stroke-width: 4.83px;
+      }
+
+      .cls-41 {
+        stroke-width: 11.83px;
+      }
+
+      .cls-42 {
+        stroke-width: 1.92px;
+      }
+
+      .cls-43 {
+        stroke-width: 1.33px;
+      }
+
+      .cls-44 {
+        stroke-width: 6px;
+      }
+
+      .cls-45 {
+        stroke-width: 1.43px;
+      }
+
+      .cls-46 {
+        stroke-width: 6.58px;
+      }
+
+      .cls-61 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-47 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-48 {
+        stroke-width: 1.64px;
+      }
+
+      .cls-49 {
+        stroke-width: 8.92px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-52" x="-1980" y="1242.27" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-17" x="-2552.56" y="888.5" width="3065.13" height="1788.54"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-52" x="-1999.59" y="-994.99" width="1920" height="1081"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <rect class="cls-17" x="-2289.33" y="-1088.55" width="2499.47" height="1268.13"/>
+    </clipPath>
+    <clipPath id="clippath-4">
+      <rect class="cls-17" x="-1983.85" y="132.59" width="1922.66" height="1081.58"/>
+    </clipPath>
+    <clipPath id="clippath-5">
+      <polygon class="cls-17" points="-1980 3414.43 -1980 3437.7 -60 3438.23 -60 2716.51 -1980 3414.43"/>
+    </clipPath>
+    <clipPath id="clippath-6">
+      <rect class="cls-21" x="-12.82" y="1133.3" width="443.32" height="1091.83"/>
+    </clipPath>
+    <clipPath id="clippath-7">
+      <rect class="cls-17" x="393" y="1137.87" width="443.32" height="1091.83"/>
+    </clipPath>
+    <clipPath id="clippath-8">
+      <rect class="cls-17" x="833.9" y="1133.3" width="1098.92" height="1091.83"/>
+    </clipPath>
+  </defs>
+  <g>
+    <rect class="cls-52" x="-1980" y="1242.27" width="1920" height="1081"/>
+    <g class="cls-61">
+      <g class="cls-55">
+        <g>
+          <g id="_Repetición_de_cuadrícula_-2" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-7" points="-112.21 968.61 -112.21 1238.44 188.79 1125.07 188.79 855.24 -112.21 968.61"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-3" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-7" points="355.45 968.61 355.45 1238.44 656.46 1125.07 656.46 855.24 355.45 968.61"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect class="cls-52" x="-1999.59" y="-994.99" width="1920" height="1081"/>
+    <g class="cls-60">
+      <g class="cls-58">
+        <g>
+          <g id="_Repetición_de_cuadrícula_-4" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-59" points="204.07 -217.2 204.07 22.67 481.12 -78.12 481.12 -317.98 204.07 -217.2"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-5" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-59" points="204.07 -17.12 204.07 222.75 -72.97 121.97 -72.97 -117.9 204.07 -17.12"/>
+          </g>
+          <g id="_Repetición_de_cuadrícula_-6" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+            <polygon class="cls-59" points="481.12 182.97 481.12 422.83 204.07 322.05 204.07 82.18 481.12 182.97"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="cls-53">
+    <g>
+      <g id="_Repetición_de_cuadrícula_-7" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="337.59 188.28 337.59 47.66 -48.96 188.28 337.59 188.28"/>
+          <polygon class="cls-54" points="337.59 -92.96 337.59 47.66 724.15 -92.96 337.59 -92.96"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-8" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="1110.7 188.28 1110.7 47.66 724.15 188.28 1110.7 188.28"/>
+          <polygon class="cls-54" points="1110.7 -92.96 1110.7 47.66 1497.26 -92.96 1110.7 -92.96"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-9" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="337.59 469.52 337.59 328.9 -48.96 469.52 337.59 469.52"/>
+          <polygon class="cls-54" points="337.59 188.28 337.59 328.9 724.15 188.28 337.59 188.28"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-10" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="1110.7 469.52 1110.7 328.9 724.15 469.52 1110.7 469.52"/>
+          <polygon class="cls-54" points="1110.7 188.28 1110.7 328.9 1497.26 188.28 1110.7 188.28"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-11" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="337.59 750.76 337.59 610.14 -48.96 750.76 337.59 750.76"/>
+          <polygon class="cls-54" points="337.59 469.52 337.59 610.14 724.15 469.52 337.59 469.52"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-12" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="1110.7 750.76 1110.7 610.14 724.15 750.76 1110.7 750.76"/>
+          <polygon class="cls-54" points="1110.7 469.52 1110.7 610.14 1497.26 469.52 1110.7 469.52"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-13" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="337.59 1032 337.59 891.38 -48.96 1032 337.59 1032"/>
+          <polygon class="cls-54" points="337.59 750.76 337.59 891.38 724.15 750.76 337.59 750.76"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-14" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <g>
+          <polygon class="cls-54" points="1110.7 1032 1110.7 891.38 724.15 1032 1110.7 1032"/>
+          <polygon class="cls-54" points="1110.7 750.76 1110.7 891.38 1497.26 750.76 1110.7 750.76"/>
+        </g>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-15" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-54" points="337.59 1032 337.59 1172.62 724.15 1032 337.59 1032"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-16" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <polygon class="cls-54" points="1110.7 1032 1110.7 1172.62 1497.26 1032 1110.7 1032"/>
+      </g>
+    </g>
+  </g>
+  <g class="cls-56">
+    <g>
+      <g id="_Repetición_de_cuadrícula_-17" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <path class="cls-26" d="M-2038.22,1668.22L-1.74,926.98"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-18" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <path class="cls-26" d="M-2038.22,1722.01L-1.74,980.78"/>
+      </g>
+      <g id="_Repetición_de_cuadrícula_-19" data-name="&amp;lt;Repetición de cuadrícula&amp;gt;">
+        <path class="cls-26" d="M-2038.22,1775.8L-1.74,1034.57"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <g class="cls-50">
+        <g>
+          <line class="cls-12" x1="-842.02" y1="1442.27" x2="2685.69" y2="142.19"/>
+          <line class="cls-12" x1="-839.69" y1="1484.02" x2="2688.02" y2="183.96"/>
+          <line class="cls-12" x1="-837.36" y1="1525.77" x2="2690.35" y2="225.72"/>
+          <line class="cls-12" x1="-835.03" y1="1567.52" x2="2692.68" y2="267.48"/>
+          <line class="cls-12" x1="-832.7" y1="1609.27" x2="2695.01" y2="309.24"/>
+          <line class="cls-12" x1="-830.37" y1="1651.02" x2="2697.34" y2="351.01"/>
+          <line class="cls-12" x1="-828.04" y1="1692.77" x2="2699.67" y2="392.77"/>
+          <line class="cls-12" x1="-825.71" y1="1734.52" x2="2702" y2="434.53"/>
+          <line class="cls-12" x1="-823.37" y1="1776.27" x2="2704.33" y2="476.29"/>
+          <line class="cls-12" x1="-821.04" y1="1818.03" x2="2706.67" y2="518.06"/>
+          <line class="cls-12" x1="-818.71" y1="1859.78" x2="2709" y2="559.82"/>
+          <line class="cls-12" x1="-816.38" y1="1901.53" x2="2711.33" y2="601.58"/>
+          <line class="cls-12" x1="-814.05" y1="1943.28" x2="2713.66" y2="643.34"/>
+          <line class="cls-12" x1="-811.72" y1="1985.03" x2="2715.99" y2="685.1"/>
+          <line class="cls-12" x1="-809.39" y1="2026.78" x2="2718.32" y2="726.87"/>
+          <line class="cls-12" x1="-807.06" y1="2068.53" x2="2720.65" y2="768.63"/>
+          <line class="cls-12" x1="-804.73" y1="2110.28" x2="2722.98" y2="810.39"/>
+          <line class="cls-12" x1="-802.39" y1="2152.03" x2="2725.32" y2="852.15"/>
+          <line class="cls-12" x1="-800.06" y1="2193.78" x2="2727.65" y2="893.92"/>
+          <line class="cls-12" x1="-797.73" y1="2235.53" x2="2729.98" y2="935.68"/>
+          <line class="cls-12" x1="-795.4" y1="2277.28" x2="2732.31" y2="977.44"/>
+          <line class="cls-12" x1="-793.07" y1="2319.03" x2="2734.64" y2="1019.2"/>
+          <line class="cls-12" x1="-790.74" y1="2360.79" x2="2736.97" y2="1060.97"/>
+        </g>
+      </g>
+      <rect class="cls-21" x="-12.82" y="1133.3" width="443.32" height="1091.83"/>
+    </g>
+    <g class="cls-51">
+      <g>
+        <line class="cls-23" x1="-436.2" y1="1446.83" x2="3091.51" y2="146.76"/>
+        <line class="cls-23" x1="-433.87" y1="1488.58" x2="3093.84" y2="188.52"/>
+        <line class="cls-23" x1="-431.54" y1="1530.33" x2="3096.17" y2="230.28"/>
+        <line class="cls-23" x1="-429.21" y1="1572.08" x2="3098.5" y2="272.05"/>
+        <line class="cls-23" x1="-426.88" y1="1613.84" x2="3100.83" y2="313.81"/>
+        <line class="cls-23" x1="-424.55" y1="1655.59" x2="3103.16" y2="355.57"/>
+        <line class="cls-23" x1="-422.22" y1="1697.34" x2="3105.49" y2="397.33"/>
+        <line class="cls-23" x1="-419.89" y1="1739.09" x2="3107.82" y2="439.09"/>
+        <line class="cls-23" x1="-417.56" y1="1780.84" x2="3110.15" y2="480.86"/>
+        <line class="cls-23" x1="-415.22" y1="1822.59" x2="3112.49" y2="522.62"/>
+        <line class="cls-23" x1="-412.89" y1="1864.34" x2="3114.82" y2="564.38"/>
+        <line class="cls-23" x1="-410.56" y1="1906.09" x2="3117.15" y2="606.14"/>
+        <line class="cls-23" x1="-408.23" y1="1947.84" x2="3119.48" y2="647.91"/>
+        <line class="cls-23" x1="-405.9" y1="1989.59" x2="3121.81" y2="689.67"/>
+        <line class="cls-23" x1="-403.57" y1="2031.34" x2="3124.14" y2="731.43"/>
+        <line class="cls-23" x1="-401.24" y1="2073.09" x2="3126.47" y2="773.19"/>
+        <line class="cls-23" x1="-398.91" y1="2114.84" x2="3128.8" y2="814.95"/>
+        <line class="cls-23" x1="-396.58" y1="2156.6" x2="3131.13" y2="856.72"/>
+        <line class="cls-23" x1="-394.24" y1="2198.35" x2="3133.47" y2="898.48"/>
+        <line class="cls-23" x1="-391.91" y1="2240.1" x2="3135.8" y2="940.24"/>
+        <line class="cls-23" x1="-389.58" y1="2281.85" x2="3138.13" y2="982"/>
+        <line class="cls-23" x1="-387.25" y1="2323.6" x2="3140.46" y2="1023.77"/>
+        <line class="cls-23" x1="-384.92" y1="2365.35" x2="3142.79" y2="1065.53"/>
+      </g>
+    </g>
+    <g class="cls-57">
+      <g>
+        <line class="cls-38" x1="4.7" y1="1442.27" x2="3532.41" y2="142.19"/>
+        <line class="cls-38" x1="7.03" y1="1484.02" x2="3534.74" y2="183.96"/>
+        <line class="cls-38" x1="9.36" y1="1525.77" x2="3537.07" y2="225.72"/>
+        <line class="cls-38" x1="11.69" y1="1567.52" x2="3539.4" y2="267.48"/>
+        <line class="cls-38" x1="14.03" y1="1609.27" x2="3541.73" y2="309.24"/>
+        <line class="cls-38" x1="16.36" y1="1651.02" x2="3544.07" y2="351.01"/>
+        <line class="cls-38" x1="18.69" y1="1692.77" x2="3546.4" y2="392.77"/>
+        <line class="cls-38" x1="21.02" y1="1734.52" x2="3548.73" y2="434.53"/>
+        <line class="cls-38" x1="23.35" y1="1776.27" x2="3551.06" y2="476.29"/>
+        <line class="cls-38" x1="25.68" y1="1818.03" x2="3553.39" y2="518.06"/>
+        <line class="cls-38" x1="28.01" y1="1859.78" x2="3555.72" y2="559.82"/>
+        <line class="cls-38" x1="30.34" y1="1901.53" x2="3558.05" y2="601.58"/>
+        <line class="cls-38" x1="32.67" y1="1943.28" x2="3560.38" y2="643.34"/>
+        <line class="cls-38" x1="35.01" y1="1985.03" x2="3562.72" y2="685.1"/>
+        <line class="cls-38" x1="37.34" y1="2026.78" x2="3565.05" y2="726.87"/>
+        <line class="cls-38" x1="39.67" y1="2068.53" x2="3567.38" y2="768.63"/>
+        <line class="cls-38" x1="42" y1="2110.28" x2="3569.71" y2="810.39"/>
+        <line class="cls-38" x1="44.33" y1="2152.03" x2="3572.04" y2="852.15"/>
+        <line class="cls-38" x1="46.66" y1="2193.78" x2="3574.37" y2="893.92"/>
+        <line class="cls-38" x1="48.99" y1="2235.53" x2="3576.7" y2="935.68"/>
+        <line class="cls-38" x1="51.32" y1="2277.28" x2="3579.03" y2="977.44"/>
+        <line class="cls-38" x1="53.65" y1="2319.03" x2="3581.36" y2="1019.2"/>
+        <line class="cls-38" x1="55.99" y1="2360.79" x2="3583.7" y2="1060.97"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <line class="cls-33" x1="1855.93" y1="1081" x2="1855.93" y2="105.62"/>
+      <line class="cls-11" x1="1763.96" y1="1081" x2="1763.96" y2="138.7"/>
+      <line class="cls-30" x1="1671.99" y1="1081" x2="1671.99" y2="171.78"/>
+      <line class="cls-19" x1="1580.02" y1="1081" x2="1580.02" y2="204.86"/>
+      <line class="cls-48" x1="1488.04" y1="1081" x2="1488.04" y2="237.94"/>
+      <line class="cls-29" x1="1396.07" y1="1081" x2="1396.07" y2="271.02"/>
+      <line class="cls-47" x1="1304.1" y1="1081" x2="1304.1" y2="304.1"/>
+      <line class="cls-45" x1="1212.13" y1="1081" x2="1212.13" y2="337.18"/>
+      <line class="cls-8" x1="1120.16" y1="1081" x2="1120.16" y2="370.26"/>
+      <line class="cls-4" x1="1028.18" y1="1081" x2="1028.18" y2="403.34"/>
+      <line class="cls-20" x1="936.21" y1="1081" x2="936.21" y2="436.42"/>
+      <line class="cls-16" x1="844.24" y1="1081" x2="844.24" y2="469.5"/>
+      <line class="cls-31" x1="752.27" y1="1081" x2="752.27" y2="502.58"/>
+      <line class="cls-35" x1="660.3" y1="1081" x2="660.3" y2="535.66"/>
+      <line class="cls-27" x1="568.33" y1="1081" x2="568.32" y2="568.74"/>
+      <line class="cls-1" x1="476.35" y1="1081" x2="476.35" y2="601.81"/>
+      <line class="cls-36" x1="384.38" y1="1081" x2="384.38" y2="634.89"/>
+      <line class="cls-10" x1="292.41" y1="1081" x2="292.41" y2="667.97"/>
+      <line class="cls-3" x1="200.44" y1="1081" x2="200.44" y2="701.05"/>
+      <line class="cls-32" x1="108.47" y1="1081" x2="108.47" y2="734.13"/>
+      <line class="cls-5" x1="16.49" y1="1081" x2="16.49" y2="767.21"/>
+    </g>
+    <g>
+      <line class="cls-34" x1="1853.33" y1="1081" x2="1853.33" y2="383.31"/>
+      <line class="cls-41" x1="1761.36" y1="1081" x2="1761.36" y2="415.78"/>
+      <line class="cls-14" x1="1669.39" y1="1081" x2="1669.39" y2="448.26"/>
+      <line class="cls-2" x1="1577.42" y1="1081" x2="1577.42" y2="480.74"/>
+      <line class="cls-37" x1="1485.45" y1="1081" x2="1485.45" y2="513.22"/>
+      <line class="cls-22" x1="1393.47" y1="1081" x2="1393.47" y2="545.69"/>
+      <line class="cls-49" x1="1301.5" y1="1081" x2="1301.5" y2="578.17"/>
+      <line class="cls-25" x1="1209.53" y1="1081" x2="1209.53" y2="610.65"/>
+      <line class="cls-24" x1="1117.56" y1="1081" x2="1117.56" y2="643.12"/>
+      <line class="cls-28" x1="1025.59" y1="1081" x2="1025.59" y2="675.6"/>
+      <line class="cls-46" x1="933.61" y1="1081" x2="933.61" y2="708.08"/>
+      <line class="cls-44" x1="841.64" y1="1081" x2="841.64" y2="740.55"/>
+      <line class="cls-6" x1="749.67" y1="1081" x2="749.67" y2="773.03"/>
+      <line class="cls-40" x1="657.7" y1="1081" x2="657.7" y2="805.51"/>
+      <line class="cls-9" x1="565.73" y1="1081" x2="565.73" y2="837.99"/>
+      <line class="cls-18" x1="473.75" y1="1081" x2="473.75" y2="870.46"/>
+      <line class="cls-39" x1="381.78" y1="1081" x2="381.78" y2="902.94"/>
+      <line class="cls-13" x1="289.81" y1="1081" x2="289.81" y2="935.42"/>
+      <line class="cls-42" x1="197.84" y1="1081" x2="197.84" y2="967.89"/>
+      <line class="cls-43" x1="105.87" y1="1081" x2="105.87" y2="1000.37"/>
+      <line class="cls-15" x1="13.9" y1="1081" x2="13.9" y2="1032.85"/>
+    </g>
+  </g>
+</svg>
