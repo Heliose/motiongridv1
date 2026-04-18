@@ -1,0 +1,784 @@
+/* ─── Kinetic Typography — shared styles ─── */
+
+:root {
+  --bg: #0a0a0a;
+  --fg: #e8e8e8;
+  --muted: #888;
+  --dim: #555;
+  --panel: #141414;
+  --panel-2: #1c1c1c;
+  --border: #222;
+  --border-2: #2a2a2a;
+  --accent: oklch(85% 0.15 195);
+  --accent-soft: oklch(85% 0.15 195 / 0.25);
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, system-ui, "Segoe UI", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ─── Header / nav ─── */
+
+.kin-header {
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(10, 10, 10, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.kin-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.kin-nav h1 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg);
+  margin: 0;
+}
+
+.kin-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  transition: color 150ms;
+}
+
+.kin-nav a:hover { color: var(--fg); }
+
+/* ─── Main layout (kinetic.html) ─── */
+
+.kin-main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 16px;
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ─── Stage ─── */
+
+.stage {
+  grid-column: 1;
+  grid-row: 1;
+  background: #000;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden;
+  min-height: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage-content {
+  font-size: clamp(26px, 4.6vw, 56px);
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding: 5vw;
+  max-width: 95%;
+}
+
+.stage-idle {
+  color: var(--dim);
+  font-size: 0.5em;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+.stage-progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: var(--accent);
+  box-shadow: 0 0 8px var(--accent-soft);
+}
+
+.stage-meta {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  font-size: 11px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.06em;
+  color: var(--dim);
+  pointer-events: none;
+}
+
+/* ─── Transport ─── */
+
+.transport {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.transport-spacer { flex: 1; }
+
+.btn-icon {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--border-2);
+  border-radius: 6px;
+  padding: 8px 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 150ms, color 150ms, border-color 150ms;
+}
+
+.btn-icon:hover {
+  background: var(--panel-2);
+  color: var(--fg);
+  border-color: #333;
+}
+
+.btn-icon svg { display: block; }
+
+.btn-play { padding: 10px 14px; }
+.btn-play .icon-pause { display: none; }
+.btn-play.is-playing .icon-play { display: none; }
+.btn-play.is-playing .icon-pause { display: block; }
+
+.speed-tabs {
+  display: flex;
+  gap: 2px;
+  background: var(--panel-2);
+  border: 1px solid var(--border-2);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.speed-tabs button {
+  background: transparent;
+  color: var(--muted);
+  border: none;
+  padding: 5px 10px;
+  font-size: 11px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 150ms, color 150ms;
+}
+
+.speed-tabs button:hover { color: var(--fg); }
+.speed-tabs button.active { background: #2a2a2a; color: var(--fg); }
+
+/* ─── Scene list ─── */
+
+.scene-list {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 160px);
+}
+
+.scene-list-header {
+  padding: 12px 14px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.scenes {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.scenes li {
+  padding: 8px 14px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+  border-left: 2px solid transparent;
+  cursor: pointer;
+  transition: background 120ms, color 120ms, border-color 120ms;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.scenes li:hover {
+  background: var(--panel-2);
+  color: var(--fg);
+}
+
+.scenes li.is-active {
+  background: var(--panel-2);
+  color: var(--fg);
+  border-left-color: var(--accent);
+}
+
+.scenes .s-idx {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  color: var(--dim);
+  min-width: 22px;
+}
+
+.scenes .s-fx {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  color: var(--accent);
+  opacity: 0.75;
+  min-width: 72px;
+}
+
+.scenes .s-text {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ─── Catalog page ─── */
+
+.catalog-main {
+  flex: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 30px 24px 60px;
+}
+
+.catalog-intro {
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  margin: 0 0 24px;
+  text-align: center;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.cat-tile {
+  background: #000;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 30px 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 160px;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: border-color 150ms, background 150ms;
+}
+
+.cat-tile:hover {
+  border-color: #333;
+  background: #030303;
+}
+
+.cat-preview {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  min-height: 70px;
+}
+
+.cat-label {
+  font-size: 11px;
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ─── Responsive ─── */
+
+@media (max-width: 900px) {
+  .kin-main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .stage { grid-column: 1; grid-row: 1; min-height: 320px; }
+  .transport { grid-column: 1; grid-row: 2; flex-wrap: wrap; }
+  .scene-list { grid-column: 1; grid-row: 3; max-height: 320px; }
+}
+
+@media (max-width: 600px) {
+  .kin-header { padding: 12px 16px; }
+  .kin-nav h1 { font-size: 11px; }
+  .kin-main { padding: 12px; }
+  .stage-content { padding: 20px; }
+}
+
+/* ─── Letter splitter primitives (used by effects later) ─── */
+
+.stage-content .word {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 0.35em;
+}
+
+.stage-content .ltr {
+  display: inline-block;
+  will-change: transform, opacity, filter;
+}
+
+/* ─── Effect catalog ─────────────────────────────────────────────────── */
+/* Default fallback — animates all letters when any fx-* class is active
+   but no specific rule matches. Overridden by later fx-specific rules
+   via matching specificity and source order. */
+
+.stage-content .ltr {
+  animation: kin-default calc(600ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 18ms / var(--fx-speed, 1));
+}
+
+@keyframes kin-default {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── fx: shake ─── per-letter jitter for "2025 tested everyone." */
+
+.fx-shake .ltr {
+  animation: kin-shake calc(900ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 28ms / var(--fx-speed, 1));
+}
+
+@keyframes kin-shake {
+  0%   { transform: translate(0, 0); opacity: 0; }
+  12%  { opacity: 1; }
+  20%  { transform: translate(-3px, 2px); }
+  35%  { transform: translate(3px, -2px); }
+  50%  { transform: translate(-2px, 2px); }
+  65%  { transform: translate(2px, -1px); }
+  80%  { transform: translate(-1px, 1px); }
+  100% { transform: translate(0, 0); opacity: 1; }
+}
+
+/* ─── fx: hesitateFade ── slow fade-in with stutter */
+.fx-hesitateFade .ltr {
+  animation: kin-hesitate calc(1100ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 22ms / var(--fx-speed, 1));
+}
+@keyframes kin-hesitate {
+  0%   { opacity: 0; transform: translateY(6px); }
+  25%  { opacity: 0.25; transform: translateY(4px); }
+  35%  { opacity: 0.15; transform: translateY(3px); }
+  55%  { opacity: 0.55; transform: translateY(2px); }
+  70%  { opacity: 0.45; transform: translateY(1px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── fx: letterShift ── letters shift horizontally into place */
+.fx-letterShift .ltr {
+  animation: kin-shift calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.9,.3,1) both;
+  animation-delay: calc(var(--i, 0) * 35ms / var(--fx-speed, 1));
+}
+@keyframes kin-shift {
+  0%   { opacity: 0; transform: translateX(calc(8px * (1 + (var(--i, 0) % 3)))); }
+  50%  { opacity: 1; transform: translateX(-4px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* ─── fx: compress ── letter-spacing squeezes inward (container-level) */
+.fx-compress {
+  animation: kin-compress calc(1100ms / var(--fx-speed, 1)) ease-out both;
+  display: inline-block;
+}
+@keyframes kin-compress {
+  0%   { letter-spacing: 0.5em; opacity: 0; }
+  50%  { letter-spacing: 0.1em; opacity: 1; }
+  100% { letter-spacing: 0; opacity: 1; }
+}
+.fx-compress .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: roughRise ── jagged rise from below */
+.fx-roughRise .ltr {
+  animation: kin-rough calc(1100ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 24ms / var(--fx-speed, 1));
+}
+@keyframes kin-rough {
+  0%   { opacity: 0; transform: translateY(30px) rotate(-4deg); }
+  40%  { opacity: 1; transform: translateY(2px) rotate(2deg); }
+  65%  { transform: translateY(-1px) rotate(-1deg); }
+  100% { opacity: 1; transform: translateY(0) rotate(0); }
+}
+
+/* ─── fx: stepForward ── confident slide-up with bounce */
+.fx-stepForward .ltr {
+  animation: kin-step calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1.2) both;
+  animation-delay: calc(var(--i, 0) * 20ms / var(--fx-speed, 1));
+}
+@keyframes kin-step {
+  0%   { opacity: 0; transform: translateY(30px) scale(0.95); }
+  60%  { opacity: 1; transform: translateY(-4px) scale(1.02); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* ─── fx: rise ── simple rise from below */
+.fx-rise .ltr {
+  animation: kin-rise calc(700ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 20ms / var(--fx-speed, 1));
+}
+@keyframes kin-rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── fx: stretch ── horizontal scale expansion (container-level) */
+.fx-stretch {
+  animation: kin-stretch calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.9,.3,1) both;
+  display: inline-block;
+  transform-origin: center;
+}
+@keyframes kin-stretch {
+  0%   { letter-spacing: -0.15em; opacity: 0; transform: scaleX(0.6); }
+  60%  { letter-spacing: 0.04em; opacity: 1; transform: scaleX(1.04); }
+  100% { letter-spacing: 0.02em; opacity: 1; transform: scaleX(1); }
+}
+.fx-stretch .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: sweepAcross ── letters appear L→R */
+.fx-sweepAcross .ltr {
+  animation: kin-sweep calc(500ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 32ms / var(--fx-speed, 1));
+}
+@keyframes kin-sweep {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ─── fx: countUp / countUpStaged ── base fade (numbers animated by JS) */
+.fx-countUp .ltr,
+.fx-countUpStaged .ltr {
+  animation: kin-default calc(500ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 10ms / var(--fx-speed, 1));
+}
+.counter {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  min-width: 0.5em;
+}
+
+/* ─── fx: flashBurst ── bright flash + glow */
+.fx-flashBurst .ltr {
+  animation: kin-flash calc(1000ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 15ms / var(--fx-speed, 1));
+}
+@keyframes kin-flash {
+  0%   { opacity: 0; text-shadow: 0 0 0 rgba(255,255,255,0); filter: brightness(1); }
+  20%  { opacity: 1; text-shadow: 0 0 20px rgba(255,255,255,0.95), 0 0 40px rgba(255,255,255,0.6); filter: brightness(1.8); }
+  60%  { opacity: 1; text-shadow: 0 0 8px rgba(255,255,255,0.4); filter: brightness(1.1); }
+  100% { opacity: 1; text-shadow: 0 0 0 rgba(255,255,255,0); filter: brightness(1); }
+}
+
+/* ─── fx: flip ── 3D Y-axis flip per letter */
+.fx-flip .ltr {
+  display: inline-block;
+  animation: kin-flip calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1) both;
+  animation-delay: calc(var(--i, 0) * 30ms / var(--fx-speed, 1));
+}
+@keyframes kin-flip {
+  0%   { opacity: 0; transform: perspective(500px) rotateY(90deg); }
+  100% { opacity: 1; transform: perspective(500px) rotateY(0); }
+}
+
+/* ─── fx: pushOut ── slide from left */
+.fx-pushOut .ltr {
+  animation: kin-push calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.9,.3,1) both;
+  animation-delay: calc(var(--i, 0) * 15ms / var(--fx-speed, 1));
+}
+@keyframes kin-push {
+  0%   { opacity: 0; transform: translateX(-44px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+/* ─── fx: bigReveal ── scale + fade, slow settle */
+.fx-bigReveal .ltr {
+  animation: kin-bigReveal calc(1200ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.2,1) both;
+  animation-delay: calc(var(--i, 0) * 18ms / var(--fx-speed, 1));
+}
+@keyframes kin-bigReveal {
+  0%   { opacity: 0; transform: scale(0.7); filter: blur(4px); }
+  60%  { opacity: 1; transform: scale(1.03); filter: blur(0); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+/* ─── fx: assemble ── letters fly in from random positions (JS sets --rx/--ry/--rr) */
+.fx-assemble .ltr {
+  animation: kin-assemble calc(1000ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.2,1) both;
+  animation-delay: calc(var(--i, 0) * 40ms / var(--fx-speed, 1));
+}
+@keyframes kin-assemble {
+  0%   { opacity: 0; transform: translate(var(--rx, 60px), var(--ry, -50px)) rotate(var(--rr, 20deg)) scale(0.4); }
+  60%  { opacity: 1; }
+  100% { opacity: 1; transform: translate(0, 0) rotate(0) scale(1); }
+}
+
+/* ─── fx: stableFade ── calm fade in */
+.fx-stableFade .ltr {
+  animation: kin-stable calc(900ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 18ms / var(--fx-speed, 1));
+}
+@keyframes kin-stable {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ─── fx: growRise ── emerge and grow from baseline */
+.fx-growRise .ltr {
+  animation: kin-growRise calc(1100ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1.1) both;
+  animation-delay: calc(var(--i, 0) * 25ms / var(--fx-speed, 1));
+  transform-origin: bottom center;
+}
+@keyframes kin-growRise {
+  0%   { opacity: 0; transform: translateY(20px) scaleY(0.3); }
+  100% { opacity: 1; transform: translateY(0) scaleY(1); }
+}
+
+/* ─── fx: spark ── pop with glow burst */
+.fx-spark .ltr {
+  animation: kin-spark calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.9,.3,1.3) both;
+  animation-delay: calc(var(--i, 0) * 40ms / var(--fx-speed, 1));
+}
+@keyframes kin-spark {
+  0%   { opacity: 0; transform: scale(0); text-shadow: 0 0 0 rgba(255,220,120,0); }
+  40%  { opacity: 1; transform: scale(1.3); text-shadow: 0 0 14px rgba(255,220,120,0.9); }
+  100% { opacity: 1; transform: scale(1); text-shadow: 0 0 0 rgba(255,220,120,0); }
+}
+
+/* ─── fx: scramble ── chars resolve (JS shuffles chars in flight) */
+.fx-scramble .ltr {
+  animation: kin-scramble calc(600ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 12ms / var(--fx-speed, 1));
+}
+@keyframes kin-scramble {
+  from { opacity: 0.7; }
+  to   { opacity: 1; }
+}
+
+/* ─── fx: spotlight ── scale + brightness reveal */
+.fx-spotlight {
+  animation: kin-spot calc(1100ms / var(--fx-speed, 1)) ease-out both;
+  display: inline-block;
+}
+@keyframes kin-spot {
+  0%   { opacity: 0; transform: scale(0.92); filter: brightness(0.35); }
+  100% { opacity: 1; transform: scale(1); filter: brightness(1); }
+}
+.fx-spotlight .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: popIn ── bounce scale from 0 */
+.fx-popIn .ltr {
+  animation: kin-pop calc(800ms / var(--fx-speed, 1)) cubic-bezier(.2,.9,.2,1.6) both;
+  animation-delay: calc(var(--i, 0) * 26ms / var(--fx-speed, 1));
+}
+@keyframes kin-pop {
+  0%   { opacity: 0; transform: scale(0); }
+  70%  { opacity: 1; transform: scale(1.18); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+/* ─── fx: shatter ── scatter from origin (JS sets --sx/--sy/--sr) */
+.fx-shatter .ltr {
+  animation: kin-shatter calc(1100ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1) both;
+  animation-delay: calc(var(--i, 0) * 20ms / var(--fx-speed, 1));
+}
+@keyframes kin-shatter {
+  0%   { opacity: 0; transform: translate(var(--sx, 30px), var(--sy, -20px)) rotate(var(--sr, 25deg)) scale(0.75); }
+  50%  { opacity: 1; }
+  100% { opacity: 1; transform: translate(0, 0) rotate(0) scale(1); }
+}
+
+/* ─── fx: typewriter ── letter-by-letter appear */
+.fx-typewriter .ltr {
+  opacity: 0;
+  animation: kin-type 1ms steps(1, end) forwards;
+  animation-delay: calc(var(--i, 0) * 60ms / var(--fx-speed, 1));
+}
+@keyframes kin-type {
+  to { opacity: 1; }
+}
+
+/* ─── fx: targetZoom ── zoom from huge, settle */
+.fx-targetZoom .ltr {
+  animation: kin-target calc(900ms / var(--fx-speed, 1)) cubic-bezier(.1,.9,.2,1) both;
+  animation-delay: calc(var(--i, 0) * 14ms / var(--fx-speed, 1));
+}
+@keyframes kin-target {
+  0%   { opacity: 0; transform: scale(3); filter: blur(6px); }
+  70%  { opacity: 1; transform: scale(1.05); filter: blur(0); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
+
+/* ─── fx: stackUp ── words stack from below (per-word stagger via --wi) */
+.fx-stackUp .word {
+  display: inline-block;
+  animation: kin-stackUp calc(800ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1.1) both;
+  animation-delay: calc(var(--wi, 0) * 160ms / var(--fx-speed, 1));
+}
+@keyframes kin-stackUp {
+  0%   { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.fx-stackUp .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: split ── widens letter-spacing */
+.fx-split {
+  animation: kin-splitSpace calc(1200ms / var(--fx-speed, 1)) ease-out both;
+  display: inline-block;
+}
+@keyframes kin-splitSpace {
+  0%   { letter-spacing: 0; opacity: 0; }
+  40%  { letter-spacing: 0.05em; opacity: 1; }
+  100% { letter-spacing: 0.3em; opacity: 1; }
+}
+.fx-split .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: merge ── narrows letter-spacing */
+.fx-merge {
+  animation: kin-mergeSpace calc(1000ms / var(--fx-speed, 1)) ease-out both;
+  display: inline-block;
+}
+@keyframes kin-mergeSpace {
+  0%   { letter-spacing: 0.4em; opacity: 0; }
+  100% { letter-spacing: 0; opacity: 1; }
+}
+.fx-merge .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: stableHold ── like stableFade but longer */
+.fx-stableHold .ltr {
+  animation: kin-default calc(1000ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 18ms / var(--fx-speed, 1));
+}
+
+/* ─── fx: pulse / pulseStrong ── breathing scale */
+.fx-pulse {
+  display: inline-block;
+  animation: kin-pulse calc(1600ms / var(--fx-speed, 1)) ease-in-out infinite;
+}
+@keyframes kin-pulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.04); }
+}
+
+.fx-pulseStrong {
+  display: inline-block;
+  animation: kin-pulseStrong calc(1100ms / var(--fx-speed, 1)) ease-in-out infinite;
+}
+@keyframes kin-pulseStrong {
+  0%, 100% { transform: scale(1); filter: brightness(1); }
+  50%      { transform: scale(1.08); filter: brightness(1.15); }
+}
+
+/* ─── fx: mirror ── horizontal-flip the last word */
+.fx-mirror .ltr {
+  animation: kin-default calc(600ms / var(--fx-speed, 1)) ease-out both;
+  animation-delay: calc(var(--i, 0) * 20ms / var(--fx-speed, 1));
+}
+.fx-mirror .word:last-child {
+  display: inline-block;
+  animation: kin-mirror calc(1400ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1) both;
+  animation-delay: calc(500ms / var(--fx-speed, 1));
+  transform-style: preserve-3d;
+}
+@keyframes kin-mirror {
+  0%   { transform: rotateY(0); }
+  100% { transform: rotateY(180deg); }
+}
+
+/* ─── fx: logoZoom ── big zoom + letter-spacing settle */
+.fx-logoZoom {
+  animation: kin-logo calc(1500ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.2,1) both;
+  display: inline-block;
+}
+@keyframes kin-logo {
+  0%   { opacity: 0; transform: scale(2); letter-spacing: 0.5em; filter: blur(10px); }
+  70%  { opacity: 1; transform: scale(1.02); letter-spacing: 0.12em; filter: blur(0); }
+  100% { opacity: 1; transform: scale(1); letter-spacing: 0.06em; filter: blur(0); }
+}
+.fx-logoZoom .ltr { animation: none; opacity: 1; }
+
+/* ─── fx: motionBlur ── fast horizontal sweep with blur */
+.fx-motionBlur .ltr {
+  animation: kin-blur calc(900ms / var(--fx-speed, 1)) cubic-bezier(.1,.9,.2,1) both;
+  animation-delay: calc(var(--i, 0) * 10ms / var(--fx-speed, 1));
+}
+@keyframes kin-blur {
+  0%   { opacity: 0; transform: translateX(-60px); filter: blur(8px); }
+  60%  { opacity: 1; transform: translateX(4px); filter: blur(2px); }
+  100% { opacity: 1; transform: translateX(0); filter: blur(0); }
+}
+
+/* ─── fx: riseArrow ── number rises, last char (↑) gets accent */
+.fx-riseArrow .ltr {
+  animation: kin-rise calc(900ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1) both;
+  animation-delay: calc(var(--i, 0) * 20ms / var(--fx-speed, 1));
+}
+.fx-riseArrow .word:last-child .ltr:last-child {
+  color: #4ade80;
+  animation: kin-arrowRise calc(1200ms / var(--fx-speed, 1)) cubic-bezier(.2,.8,.3,1.2) both;
+  animation-delay: calc(500ms / var(--fx-speed, 1));
+  display: inline-block;
+}
+@keyframes kin-arrowRise {
+  0%   { opacity: 0; transform: translateY(28px) scale(0.5); }
+  100% { opacity: 1; transform: translateY(0) scale(1.2); }
+}
+
+

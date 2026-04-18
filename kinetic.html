@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kinetic Typography — motiongridv1</title>
+<link rel="stylesheet" href="kinetic.css">
+</head>
+<body class="kin-body">
+
+<header class="kin-header">
+  <nav class="kin-nav">
+    <a href="index.html" class="kin-back">← motiongridv1</a>
+    <h1>Kinetic Typography</h1>
+    <a href="catalog.html" class="kin-link">Effect Catalog →</a>
+  </nav>
+</header>
+
+<main class="kin-main">
+  <section class="stage" id="stage" aria-label="Playback stage">
+    <div class="stage-content" id="stage-content" aria-live="polite">
+      <span class="stage-idle">Press Play to start</span>
+    </div>
+    <div class="stage-progress" id="stage-progress"></div>
+    <div class="stage-meta" id="stage-meta"></div>
+  </section>
+
+  <section class="transport" aria-label="Playback controls">
+    <button id="btn-restart" class="btn-icon" title="Restart" aria-label="Restart">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+    </button>
+    <button id="btn-prev" class="btn-icon" title="Previous scene" aria-label="Previous scene">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 5l-10 7 10 7z"/></svg>
+    </button>
+    <button id="btn-play" class="btn-icon btn-play" title="Play / Pause" aria-label="Play or pause">
+      <svg class="icon-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+      <svg class="icon-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>
+    </button>
+    <button id="btn-next" class="btn-icon" title="Next scene" aria-label="Next scene">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5l10 7-10 7z"/></svg>
+    </button>
+
+    <div class="transport-spacer"></div>
+
+    <div class="speed-tabs" id="speed-tabs" role="group" aria-label="Playback speed">
+      <button data-speed="0.5">0.5×</button>
+      <button data-speed="1" class="active">1×</button>
+      <button data-speed="2">2×</button>
+    </div>
+  </section>
+
+  <aside class="scene-list" id="scene-list" aria-label="Scene list">
+    <div class="scene-list-header">Scenes</div>
+    <ol class="scenes" id="scenes"></ol>
+  </aside>
+</main>
+
+<script src="kinetic.js"></script>
+</body>
+</html>
