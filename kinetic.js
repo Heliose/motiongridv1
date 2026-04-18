@@ -7,54 +7,53 @@
   // Each scene: { text, fx, duration (entrance ms), hold (post-entrance ms), meta? }
   // `fx` names map to CSS classes (.fx-<name>) applied to .stage-content.
   // Effects not yet defined in CSS fall back to a default fade-up.
-  const BD = (n) => 'ab1 (' + n + ').svg';
   const SCRIPT = [
     // Act 1 — the challenge
-    { text: "2025 tested everyone.",        fx: "shake",         duration: 1400, hold: 500, backdrop: BD(1) },
-    { text: "Cautious markets.",            fx: "hesitateFade",  duration: 1300, hold: 300, backdrop: BD(2) },
-    { text: "Shifting demand.",             fx: "letterShift",   duration: 1300, hold: 300, backdrop: BD(3) },
-    { text: "Tighter budgets.",             fx: "compress",      duration: 1400, hold: 400, backdrop: BD(4) },
-    { text: "THE TIMES WERE CHALLENGING.",  fx: "roughRise",     duration: 1600, hold: 600, backdrop: BD(5) },
-    { text: "WE SAID CHALLENGE ACCEPTED.",  fx: "stepForward",   duration: 1600, hold: 700, backdrop: BD(6) },
+    { text: "2025 tested everyone.",        fx: "shake",         duration: 1400, hold: 500 },
+    { text: "Cautious markets.",            fx: "hesitateFade",  duration: 1300, hold: 300 },
+    { text: "Shifting demand.",             fx: "letterShift",   duration: 1300, hold: 300 },
+    { text: "Tighter budgets.",             fx: "compress",      duration: 1400, hold: 400 },
+    { text: "THE TIMES WERE CHALLENGING.",  fx: "roughRise",     duration: 1600, hold: 600 },
+    { text: "WE SAID CHALLENGE ACCEPTED.",  fx: "stepForward",   duration: 1600, hold: 700 },
 
     // Act 2 — the wins
-    { text: "Topline up.",                   fx: "rise",          duration: 1100, hold: 300, backdrop: BD(7) },
-    { text: "Margins expanded.",             fx: "stretch",       duration: 1300, hold: 300, backdrop: BD(8) },
-    { text: "Large deals across industries.",fx: "sweepAcross",   duration: 1600, hold: 400, backdrop: BD(9) },
-    { text: "45+ new marquee accounts → 162+ Fortune 500 clients", fx: "countUp", duration: 2400, hold: 700, meta: { counters: [45, 162] }, backdrop: BD(10) },
-    { text: "That's how TechM wins.",        fx: "flashBurst",    duration: 1400, hold: 700, backdrop: BD(11) },
+    { text: "Topline up.",                   fx: "rise",          duration: 1100, hold: 300 },
+    { text: "Margins expanded.",             fx: "stretch",       duration: 1300, hold: 300 },
+    { text: "Large deals across industries.",fx: "sweepAcross",   duration: 1600, hold: 400 },
+    { text: "45+ new marquee accounts → 162+ Fortune 500 clients", fx: "countUp", duration: 2400, hold: 700, meta: { counters: [45, 162] } },
+    { text: "That's how TechM wins.",        fx: "flashBurst",    duration: 1400, hold: 700 },
 
     // Act 3 — innovation
-    { text: "We made our clients AI-READY.", fx: "flip",          duration: 1500, hold: 400, backdrop: BD(12) },
-    { text: "Then gave ORION MARKETPLACE to the world.", fx: "pushOut", duration: 1800, hold: 500, backdrop: BD(13) },
-    { text: "India's first Hindi-language education LLM.", fx: "bigReveal", duration: 1900, hold: 500, backdrop: BD(14) },
-    { text: "Built with NVIDIA.",            fx: "assemble",      duration: 1500, hold: 400, backdrop: BD(15) },
-    { text: "Agentic AI for telecom.",       fx: "stableFade",    duration: 1300, hold: 300, backdrop: BD(16) },
-    { text: "Built with Microsoft.",         fx: "assemble",      duration: 1500, hold: 400, backdrop: BD(17) },
-    { text: "EMERGING LEADER — GenAI Consulting & Implementation.", fx: "growRise", duration: 1800, hold: 500, backdrop: BD(18) },
-    { text: "That's how TechM innovates.",   fx: "spark",         duration: 1500, hold: 700, backdrop: BD(19) },
+    { text: "We made our clients AI-READY.", fx: "flip",          duration: 1500, hold: 400 },
+    { text: "Then gave ORION MARKETPLACE to the world.", fx: "pushOut", duration: 1800, hold: 500 },
+    { text: "India's first Hindi-language education LLM.", fx: "bigReveal", duration: 1900, hold: 500 },
+    { text: "Built with NVIDIA.",            fx: "assemble",      duration: 1500, hold: 400 },
+    { text: "Agentic AI for telecom.",       fx: "stableFade",    duration: 1300, hold: 300 },
+    { text: "Built with Microsoft.",         fx: "assemble",      duration: 1500, hold: 400 },
+    { text: "EMERGING LEADER — GenAI Consulting & Implementation.", fx: "growRise", duration: 1800, hold: 500 },
+    { text: "That's how TechM innovates.",   fx: "spark",         duration: 1500, hold: 700 },
 
     // Act 4 — brand + people
-    { text: "We refreshed our brand.",       fx: "scramble",      duration: 1700, hold: 400, backdrop: BD(20) },
-    { text: "The world took notice.",        fx: "spotlight",     duration: 1500, hold: 500, backdrop: BD(21) },
-    { text: "#4 IN INDIA → #9 GLOBALLY → $3.4 BILLION", fx: "countUpStaged", duration: 2600, hold: 700, meta: { stages: [4, 9, 3.4] }, backdrop: BD(22) },
-    { text: "Our people showed up like never before.", fx: "popIn", duration: 1500, hold: 400, backdrop: BD(23) },
-    { text: "We broke records.",             fx: "shatter",       duration: 1500, hold: 400, backdrop: BD(24) },
-    { text: "61,031 VOICES for TechM CARES Survey.", fx: "countUp", duration: 2000, hold: 500, meta: { counters: [61031] }, backdrop: BD(25) },
-    { text: "4.47 engagement score ↑",       fx: "riseArrow",     duration: 1500, hold: 400, backdrop: BD(26) },
-    { text: "We created history.",           fx: "typewriter",    duration: 1700, hold: 500, backdrop: BD(27) },
-    { text: "Achieved NPS of 75 in customer satisfaction.", fx: "targetZoom", duration: 1800, hold: 500, backdrop: BD(28) },
-    { text: "That's how TechM builds trust.",fx: "stackUp",       duration: 1600, hold: 700, backdrop: BD(29) },
+    { text: "We refreshed our brand.",       fx: "scramble",      duration: 1700, hold: 400 },
+    { text: "The world took notice.",        fx: "spotlight",     duration: 1500, hold: 500 },
+    { text: "#4 IN INDIA → #9 GLOBALLY → $3.4 BILLION", fx: "countUpStaged", duration: 2600, hold: 700, meta: { stages: [4, 9, 3.4] } },
+    { text: "Our people showed up like never before.", fx: "popIn", duration: 1500, hold: 400 },
+    { text: "We broke records.",             fx: "shatter",       duration: 1500, hold: 400 },
+    { text: "61,031 VOICES for TechM CARES Survey.", fx: "countUp", duration: 2000, hold: 500, meta: { counters: [61031] } },
+    { text: "4.47 engagement score ↑",       fx: "riseArrow",     duration: 1500, hold: 400 },
+    { text: "We created history.",           fx: "typewriter",    duration: 1700, hold: 500 },
+    { text: "Achieved NPS of 75 in customer satisfaction.", fx: "targetZoom", duration: 1800, hold: 500 },
+    { text: "That's how TechM builds trust.",fx: "stackUp",       duration: 1600, hold: 700 },
 
     // Act 5 — finale
-    { text: "Why choose between scale and speed…", fx: "split",   duration: 1700, hold: 300, backdrop: BD(30) },
-    { text: "When we can do both?",          fx: "merge",         duration: 1500, hold: 500, backdrop: BD(31) },
-    { text: "This is the TechM promise.",    fx: "stableHold",    duration: 1500, hold: 500, backdrop: BD(32) },
-    { text: "Are we ready for the future?",  fx: "pulse",         duration: 1600, hold: 400, backdrop: BD(33) },
-    { text: "Are we ready for the future?",  fx: "pulseStrong",   duration: 1500, hold: 400, backdrop: BD(33) },
-    { text: "Is the future ready for US?",   fx: "mirror",        duration: 1800, hold: 700, backdrop: BD(34) },
-    { text: "TECH MAHINDRA",                 fx: "logoZoom",      duration: 2000, hold: 600, backdrop: BD(34) },
-    { text: "SCALE AT SPEED",                fx: "motionBlur",    duration: 1800, hold: 1000, backdrop: BD(34) },
+    { text: "Why choose between scale and speed…", fx: "split",   duration: 1700, hold: 300 },
+    { text: "When we can do both?",          fx: "merge",         duration: 1500, hold: 500 },
+    { text: "This is the TechM promise.",    fx: "stableHold",    duration: 1500, hold: 500 },
+    { text: "Are we ready for the future?",  fx: "pulse",         duration: 1600, hold: 400 },
+    { text: "Are we ready for the future?",  fx: "pulseStrong",   duration: 1500, hold: 400 },
+    { text: "Is the future ready for US?",   fx: "mirror",        duration: 1800, hold: 700 },
+    { text: "TECH MAHINDRA",                 fx: "logoZoom",      duration: 2000, hold: 600 },
+    { text: "SCALE AT SPEED",                fx: "motionBlur",    duration: 1800, hold: 1000 },
   ];
 
   // ─── State ────────────────────────────────────────────────────────────
@@ -269,10 +268,6 @@
 
     startProgress(total);
 
-    // Warm the cache for the next scene's backdrop
-    const nextScene = SCRIPT[idx + 1];
-    if (nextScene && nextScene.backdrop) loadBackdrop(nextScene.backdrop);
-
     state.sceneTimer = setTimeout(() => {
       playScene(idx + 1);
     }, total);
@@ -287,9 +282,6 @@
     el.classList.add('fx-' + scene.fx);
     // Set speed-scaled animation speed via CSS var
     el.style.setProperty('--fx-speed', String(state.speed));
-
-    // Swap backdrop (async, non-blocking)
-    setBackdrop(scene.backdrop || null);
 
     // Cancel any active scramble/counter loops tied to the previous scene
     cancelActiveRafLoops();
@@ -515,82 +507,6 @@
       html += word;
     }
     return html;
-  }
-
-  // ─── Backdrop system ──────────────────────────────────────────────────
-  const backdropCache = new Map(); // filename -> raw SVG text
-  const backdropPending = new Map(); // filename -> Promise
-  let bdInstance = 0;
-  let activeBdLayer = 'a';
-  let lastRequestedBackdrop = null;
-
-  function loadBackdrop(name) {
-    if (backdropCache.has(name)) return Promise.resolve(backdropCache.get(name));
-    if (backdropPending.has(name)) return backdropPending.get(name);
-    const url = 'svgbg/' + encodeURIComponent(name);
-    const p = fetch(url)
-      .then((r) => r.ok ? r.text() : Promise.reject(new Error('HTTP ' + r.status)))
-      .then((text) => {
-        backdropCache.set(name, text);
-        backdropPending.delete(name);
-        return text;
-      })
-      .catch((err) => {
-        backdropPending.delete(name);
-        console.warn('Backdrop load failed:', name, err);
-        return null;
-      });
-    backdropPending.set(name, p);
-    return p;
-  }
-
-  // Illustrator SVGs share class names like .cls-1, .cls-2 across files.
-  // Prefix them per instance so multiple SVGs inlined at once don't collide.
-  function scopeSvg(svgText, scope) {
-    let out = svgText;
-    // Scope class selectors inside <style> blocks
-    out = out.replace(/<style\b([^>]*)>([\s\S]*?)<\/style>/gi, (m, attrs, css) => {
-      const scoped = css.replace(/\.cls-(\d+)\b/g, '.' + scope + '-cls-$1');
-      return '<style' + attrs + '>' + scoped + '</style>';
-    });
-    // Scope class="" references
-    out = out.replace(/class="([^"]*)"/g, (m, classes) => {
-      const scoped = classes
-        .split(/\s+/)
-        .map((c) => (/^cls-\d+$/.test(c) ? scope + '-' + c : c))
-        .join(' ');
-      return 'class="' + scoped + '"';
-    });
-    // Ensure cover-fit aspect ratio on the root svg
-    out = out.replace(/<svg\b([^>]*)>/i, (m, attrs) => {
-      if (/preserveAspectRatio/i.test(attrs)) return m;
-      return '<svg' + attrs + ' preserveAspectRatio="xMidYMid slice">';
-    });
-    return out;
-  }
-
-  async function setBackdrop(name) {
-    lastRequestedBackdrop = name;
-    if (!name) {
-      document.querySelectorAll('.stage-backdrop').forEach((l) => l.classList.remove('active'));
-      return;
-    }
-    const svgText = await loadBackdrop(name);
-    // If another scene took over before this one finished loading, bail
-    if (lastRequestedBackdrop !== name) return;
-    if (!svgText) return;
-    const scope = 'bd' + (++bdInstance);
-    const scoped = scopeSvg(svgText, scope);
-    const nextLayer = activeBdLayer === 'a' ? 'b' : 'a';
-    const el = byId('backdrop-' + nextLayer);
-    if (!el) return;
-    el.innerHTML = scoped;
-    requestAnimationFrame(() => {
-      if (lastRequestedBackdrop !== name) return;
-      document.querySelectorAll('.stage-backdrop').forEach((l) => l.classList.remove('active'));
-      el.classList.add('active');
-      activeBdLayer = nextLayer;
-    });
   }
 
   // ─── Scene list rendering ─────────────────────────────────────────────

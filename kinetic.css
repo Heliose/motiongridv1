@@ -98,43 +98,7 @@ body {
   justify-content: center;
 }
 
-/* ─── Backdrops ─── */
-.stage-backdrops {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.stage-backdrop {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  transition: opacity 700ms ease-in-out;
-  will-change: opacity;
-}
-
-.stage-backdrop.active { opacity: 1; }
-
-.stage-backdrop svg,
-.stage-backdrop img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-.stage-backdrop-overlay {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at center, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.55) 100%);
-  pointer-events: none;
-  z-index: 1;
-}
-
 .stage-content {
-  position: relative;
-  z-index: 2;
   font-size: clamp(26px, 4.6vw, 56px);
   font-weight: 300;
   line-height: 1.2;
@@ -142,11 +106,7 @@ body {
   text-align: center;
   padding: 5vw;
   max-width: 95%;
-  text-shadow: 0 2px 12px rgba(0,0,0,0.55);
 }
-
-.stage-progress,
-.stage-meta { z-index: 3; }
 
 .stage-idle {
   color: var(--dim);
